@@ -24,7 +24,7 @@ Design: [Personal](https://preview.colorlib.com/theme/personal/)
 
 ## Authors
 [Vaidas](https://github.com/vaidas33)
-[Aleksov](https://github.com/Alekslov)
-[Vaidmine](https://github.com/Vaidmine)
+[Aleksandra](https://github.com/Alekslov)
+[Vaidminė](https://github.com/Vaidmine)
 [Mindaugas](https://github.com/mindep1)
 [Ana](https://github.com/anavisnia)
