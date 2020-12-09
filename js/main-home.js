@@ -2,7 +2,6 @@
 ALL IMPORTS
 ****************/
 /* main style */
-/* header */
 /* this is me */
 /* about me */
 /* services */
@@ -18,7 +17,6 @@ ALL IMPORTS
 EXECUTION
 ****************/
 /* main style */
-/* header */
 /* this is me */
 /* about me */
 /* services */
