@@ -11,6 +11,28 @@ body {
         grid-column: 2/3;
     }
 
+/* header */
+
+/* this is me */
+
+/* about me */
+
+/* services */
+
+/* projects completed */
+
+/* projects */
+
+/* clients feedback about me */
+
+/* choose your plan */
+
+/* posts */
+
+/* partners */
+
+/* footer */
+
 @media (max-width: 1300px) {
     .container {
         grid-template-columns: 1fr 980px 1fr;
