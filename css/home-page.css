@@ -29,5 +29,18 @@ CUSTOM HOME PAGE STYLES GOES BELOW THIS COMMENT
 /* clients feedback about me */
 /* choose your plan */
 /* posts */
+
+.container.post > .row > p {
+    color: #80828D;
+}
+.container.post > .row > .post-section > p {
+    color: #80828D;
+}
+
+.container > .row > .post-section {
+    display: grid;
+    grid-template-columns: 1fr 400px 400px 400px 1fr;
+}
+
 /* partners */
 /* footer */
