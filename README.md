@@ -11,7 +11,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at https://front-end-by-rimantas.github.io/19-grupe-portfolio/
 
-Design: [React theme five](https://react.theme-land.com/theme-five)
+Design: [Personal](https://preview.colorlib.com/theme/personal/)
 
 
 ## Project features
@@ -23,4 +23,8 @@ Design: [React theme five](https://react.theme-land.com/theme-five)
 - no AJAX (data sending)
 
 ## Authors
-[Rimantas](https://github.com/belauzas)
+[Vaidas](https://github.com/vaidas33)
+[Aleksandra](https://github.com/Alekslov)
+[Vaidminė](https://github.com/Vaidmine)
+[Mindaugas](https://github.com/mindep1)
+[Ana](https://github.com/anavisnia)
