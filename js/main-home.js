@@ -2,36 +2,28 @@
 ALL IMPORTS
 ****************/
 /* header */
-/* hero */
-/* features */
-/* app promo */
-/* app promo 2 */
-/* how works */
-/* gallery */
-/* testimonials */
-/* pricing */
-/* faq */
-/* team */
-/* app store */
-/* subscribe */
-/* contact */
+/* this is me */
+/* about me */
+/* services */
+/* projects completed */
+/* projects */
+/* clients feedback about me */
+/* choose your plan */
+/* posts */
+/* partners */
 /* footer */
 
 /***************
 EXECUTION
 ****************/
 /* header */
-/* hero */
-/* features */
-/* app promo */
-/* app promo 2 */
-/* how works */
-/* gallery */
-/* testimonials */
-/* pricing */
-/* faq */
-/* team */
-/* app store */
-/* subscribe */
-/* contact */
+/* this is me */
+/* about me */
+/* services */
+/* projects completed */
+/* projects */
+/* clients feedback about me */
+/* choose your plan */
+/* posts */
+/* partners */
 /* footer */
