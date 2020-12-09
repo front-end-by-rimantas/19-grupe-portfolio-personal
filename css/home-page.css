@@ -26,6 +26,9 @@ CUSTOM HOME PAGE STYLES GOES BELOW THIS COMMENT
 /* header */
 /* hero-home */
 /* about-me */
+.about {
+    box-shadow: 0 0 5px;
+}
 /* services */
 /* projects-completed */
 /* projects */
