@@ -2,16 +2,21 @@
 @import './components/reset.css';
 @import './components/layout.css';
 /* 3rd party components */
+@import './components/font-awesome.min.css';
 /* your components */
 @import './components/button.css';
-@import './components/faq.css';
-@import './components/footer.css';
-@import './components/form.css';
-@import './components/gallery.css';
 @import './components/header.css';
 @import './components/hero-home.css';
-@import './components/pricing.css';
-@import './components/testimonials.css';
+@import './components/about-me.css';
+@import './components/services.css';
+@import './components/projects-completed.css';
+@import './components/projects.css';
+@import './components/clients-feedback.css';
+@import './components/plan.css';
+@import './components/posts.css';
+@import './components/partners.css';
+@import './components/footer.css';
+@import './components/form.css';
 
 /*
 ***********************************************
@@ -20,14 +25,13 @@ CUSTOM HOME PAGE STYLES GOES BELOW THIS COMMENT
 */
 
 /* header */
-/* main style */
-/* this is me */
-/* about me */
+/* hero-home */
+/* about-me */
 /* services */
-/* projects completed */
+/* projects-completed */
 /* projects */
-/* clients feedback about me */
-/* choose your plan */
+/* clients-feedback */
+/* plan */
 /* posts */
 /* partners */
 /* footer */
