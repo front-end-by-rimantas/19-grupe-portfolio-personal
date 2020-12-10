@@ -1,0 +1,19 @@
+.facts-area { 
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300px;
+    line-height: 1.625em;
+    position: relative;
+    padding: 120px 0;
+    text-align: center;  
+}   
+*::before, *::after {box-sizing: border-box;}
