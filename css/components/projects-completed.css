@@ -1,9 +1,8 @@
-.facts-area { 
+.prj-comp { 
     background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
     color: #fff;
     margin-top: 0;
     margin-bottom: 1rem;
-    display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
