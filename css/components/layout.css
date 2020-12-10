@@ -58,10 +58,6 @@ body {
     .container {
         grid-template-columns: 1fr 980px 1fr;       
     }
-    .label > img {
-        width: 100%;
-        height: auto;
-      } 
         .container > .row > .col-lg-1 { grid-column: auto / span 1; }
         .container > .row > .col-lg-2 { grid-column: auto / span 2; }
         .container > .row > .col-lg-3 { grid-column: auto / span 3; }
@@ -84,10 +80,6 @@ body {
     .container > .row {
         gap: 20px;
     }
-    .label > img {
-        width: 100%;
-        height: auto;
-      }
         .container > .row > .col-md-1 { grid-column: auto / span 1; }
         .container > .row > .col-md-2 { grid-column: auto / span 2; }
         .container > .row > .col-md-3 { grid-column: auto / span 3; }
@@ -109,10 +101,6 @@ body {
     .container > .row {
         gap: 10px;
     }
-    .label > img {
-        width: 100%;
-        height: auto;
-      }
         .container > .row > .col-sm-1 { grid-column: auto / span 1; }
         .container > .row > .col-sm-2 { grid-column: auto / span 2; }
         .container > .row > .col-sm-3 { grid-column: auto / span 3; }
@@ -134,10 +122,6 @@ body {
     .container > .row {
         gap: 10px;
     }
-    .label > img {
-        width: 100%;
-        height: auto;
-      }
         .container > .row > .col-xs-1 { grid-column: auto / span 1; }
         .container > .row > .col-xs-2 { grid-column: auto / span 2; }
         .container > .row > .col-xs-3 { grid-column: auto / span 3; }

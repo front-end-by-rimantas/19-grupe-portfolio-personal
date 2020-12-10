@@ -55,6 +55,11 @@ p {
     line-height: 21px;
 }
 
+.label > img {
+    width: 100%;
+    height: auto;
+  } 
+
 
 /* partners */
 /* footer */
