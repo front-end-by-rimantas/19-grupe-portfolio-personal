@@ -60,10 +60,29 @@ div.row.clients-feedback-main {
                 display: block;
                 width: 90%;
             }
-    .cont-arrow > span.arrow {
+    .cont-arrow {
+        display: grid;
+        grid-template-areas:
+        ". a a ."
+        ". b b .";
+    }
+    .cont-arrow > span.arrow-up {
         display: inline-block;
         width: 100%;
-        height: 49%;
+        height: 30%;
         text-align: center;
         padding-top: 30px;
+        grid-area: a;
+        align-self: center;
+        justify-self: center;
+    }
+    .cont-arrow > span.arrow-down {
+        display: inline-block;
+        width: 100%;
+        height: 30%;
+        text-align: center;
+        padding-bottom: 50px;
+        grid-area: b;
+        align-self: center;
+        justify-self: center;
     }
