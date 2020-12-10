@@ -1,6 +1,6 @@
-/* header {
-    position: fixed;
-} */
+header.container {
+    padding: 10px 0;
+}
 
 .nav {
     list-style-type: none;
