@@ -24,6 +24,27 @@ CUSTOM HOME PAGE STYLES GOES BELOW THIS COMMENT
 ***********************************************
 */
 
+/* main style */
+
+p {
+    color: #80828D;
+    font-size: 15px;
+    line-height: 21px;
+}
+h1 {
+    color: #000;
+}
+h3 {
+    text-transform: capitalize;
+    color: #000;
+    font-size: 33px;
+    padding-bottom: 30px;
+}
+h4 {
+    color: #000;
+    padding: 15px 0;
+}
+
 /* header */
 /* hero-home */
 /* about-me */
