@@ -33,5 +33,33 @@ CUSTOM HOME PAGE STYLES GOES BELOW THIS COMMENT
 /* clients-feedback */
 /* plan */
 /* posts */
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+h3 {
+    text-transform: capitalize;
+    color: #000;
+    font-size: 33px;
+    padding-bottom: 30px;
+}
+
+h4 {
+    padding: 15px 0;
+}
+
+p {
+    color: #80828D;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.label > img {
+    width: 100%;
+    height: auto;
+  } 
+
+
 /* partners */
 /* footer */

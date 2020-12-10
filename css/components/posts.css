@@ -1,0 +1,42 @@
+.container.post {
+    background: #f9f9ff;
+}
+.post-header {
+    /* background-color: rgb(168, 226, 209); */
+    text-align: center;
+    margin-bottom:45px;
+}
+.post-block {
+    /* background-color: rgb(168, 226, 209); */
+}
+.post-block > h4 {
+    display:inline-block;
+    padding-top: 30px;
+}
+.label > img {
+    width: 100%;
+    height: auto;
+  }
+
+.post-user {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    padding-left: 0;
+    border-bottom: 1px solid #eee;
+}
+    .post-user > div {
+        display:inline-block;
+    }
+    .post-user-left {
+        float:left;
+    }
+        .post-user-left > p {
+            display:inline-block;
+        }
+    .post-user-right {
+        float:right;
+    }
+        .post-user-right > p {
+            display:inline-block;
+        }
