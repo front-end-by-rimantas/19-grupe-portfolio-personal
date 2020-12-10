@@ -10,6 +10,7 @@
 }
 .post-block > h4 {
     display:inline-block;
+    padding-top: 30px;
 }
 .label > img {
     width: 100%;
@@ -17,9 +18,11 @@
   }
 
 .post-user {
+    display: inline-block;
     width: 100%;
     padding: 10px;
     padding-left: 0;
+    border-bottom: 1px solid #eee;
 }
     .post-user > div {
         display:inline-block;
