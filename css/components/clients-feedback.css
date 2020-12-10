@@ -14,9 +14,6 @@ h4 {
     padding-bottom: 10px;
 }
 
-/* img {
-    width: 35px;
-} */
 .container > .row > * {
    background-color: lightblue;
 }
@@ -24,54 +21,49 @@ h4 {
     column-gap: 30px;
     row-gap: 5px;
 }
-    div.row.clients-feedback-main {
-        padding-bottom: 30px;
-        text-align: center;
-        text-transform: capitalize;
-    }
-    div.col-5.clients-feedback {
+div.row.clients-feedback-main {
+    padding-bottom: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+    div.clients-feedback-l {
+        grid-column: 2 / 7;
         padding: 25px 30px 10px 30px;
     }
-    div.col-5.clients-feedback > div.cont-left {
+    div.clients-feedback-r {
+        grid-column: 7 / 12;
+        padding: 25px 30px 10px 30px;
+    }
+    div.clients-feedback-l > div.cont-left {
             width: 10%;
             display: inline-block;
             float: left;
         }
-        div.cont-left > img{
-            width: 35px;
-        }
-        div.col-5.clients-feedback > div.cont-right {
+
+        div.clients-feedback-l > div.cont-right {
             width: 85%;
             display: inline-block;
             float: right;
 
         }
-    div.col-5.clients-feedback > div.cont-left {
+    div.clients-feedback-r > div.cont-left {
             width: 10%;
             display: inline-block;
             float: left;
         }
-        div.cont-left {
+    div.clients-feedback-r > div.cont-right {
+            width: 85%;
             display: inline-block;
-            float: left;
-            width: 100%;
-            height: 100%;
-            margin-right: 20px;
+            float: right;
         }
             div.cont-left > img{
                 display: block;
-                width: 100%;
+                width: 90%;
             }
-        div.col-5.clients-feedback > div.cont-right {
-            width: 85%;
-            display: inline-block;
-            float: right;
-
-        }
-            .cont-arrow > span.arrow {
-                display: inline-block;
-                width: 100%;
-                height: 49%;
-                text-align: center;
-                padding-top: 30px;
-            }
+    .cont-arrow > span.arrow {
+        display: inline-block;
+        width: 100%;
+        height: 49%;
+        text-align: center;
+        padding-top: 30px;
+    }
