@@ -1,0 +1,11 @@
+:root{ --about-me-padding: 25px;
+}
+.right-column > h4 {
+padding: var(--about-me-padding) 0 calc(var(--about-me-padding) * 2) 0;
+}
+.right-column > h2 {
+padding: 0 0 calc(var(--about-me-padding) * 2.5) 0;
+}
+.right-column > p {
+padding: 0 0 calc(var(--about-me-padding) * 2) 0;
+}
