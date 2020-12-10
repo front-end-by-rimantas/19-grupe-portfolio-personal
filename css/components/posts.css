@@ -1,14 +1,38 @@
+.container.post {
+    background: #f9f9ff;
+}
 .post-header {
-    background-color: rgb(168, 226, 209);
+    /* background-color: rgb(168, 226, 209); */
     text-align: center;
 }
 .post-block {
-    background-color: rgb(168, 226, 209);
+    /* background-color: rgb(168, 226, 209); */
 }
-.label {
-    background-color: red;
+.post-block > h4 {
+    display:inline-block;
 }
 .label > img {
     width: 100%;
     height: auto;
   }
+
+.post-user {
+    width: 100%;
+    padding: 10px;
+    padding-left: 0;
+}
+    .post-user > div {
+        display:inline-block;
+    }
+    .post-user-left {
+        float:left;
+    }
+        .post-user-left > p {
+            display:inline-block;
+        }
+    .post-user-right {
+        float:right;
+    }
+        .post-user-right > p {
+            display:inline-block;
+        }
