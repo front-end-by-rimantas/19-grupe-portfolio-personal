@@ -1,0 +1,14 @@
+.post-header {
+    background-color: rgb(168, 226, 209);
+    text-align: center;
+}
+.post-block {
+    background-color: rgb(168, 226, 209);
+}
+.label {
+    background-color: red;
+}
+.label > img {
+    width: 100%;
+    height: auto;
+  }
