@@ -1,0 +1,13 @@
+.container > .row > * {
+    background-color: pink;
+    
+}
+/* .label {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px #000003;
+
+} */
