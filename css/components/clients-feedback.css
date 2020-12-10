@@ -1,6 +1,7 @@
 p {
     color: #777777;
     font-size: 14px;
+    margin-bottom: 10px;
 }
 h3 {
     color: #222222;
@@ -9,6 +10,7 @@ h3 {
 h4 {
     color: #222222;
     font-size: 18px;
+    padding-bottom: 10px;
 }
 
 /* img {
@@ -24,6 +26,10 @@ h4 {
     div.row.clients-feedback-main {
         padding-bottom: 60px;
         text-align: center;
+        text-transform: uppercase;
+    }
+    div.col-5.clients-feedback {
+        padding: 20px;
     }
     div.col-5.clients-feedback > div.cont-left {
             width: 10%;
@@ -39,7 +45,7 @@ h4 {
             float: right;
 
         }
-    div.col-6.clients-feedback > div.cont-left {
+    div.col-5.clients-feedback > div.cont-left {
             width: 10%;
             display: inline-block;
             float: left;
@@ -47,7 +53,7 @@ h4 {
         div.cont-left > img{
             width: 35px;
         }
-        div.col-6.clients-feedback > div.cont-right {
+        div.col-5.clients-feedback > div.cont-right {
             width: 85%;
             display: inline-block;
             float: right;
