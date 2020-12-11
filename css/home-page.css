@@ -70,20 +70,16 @@ p {
 /* posts */
 
 .post p {
-    color: #80828D;
-    font-size: 15px;
     line-height: 21px;
+    font-size: 15px;
 }
 
 .post-header > h3 {
     text-transform: capitalize;
-    color: #000;
-    font-size: 33px;
-    padding-bottom: 30px;
 }
 
-.post-block > h4 {
-    padding: 15px 0;
+.post-block > p {
+    text-align: initial;
 }
 
 .post-block > .label > img {
