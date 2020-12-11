@@ -1,18 +1,27 @@
 :root{ --about-me-padding: 25px;
 }
-.right-column > h4 {
+.right-column.about > h4 {
 padding: var(--about-me-padding) 0 calc(var(--about-me-padding) * 1.5) 0;
 }
-.right-column > h2 {
+.right-column.about > h2 {
 padding: 0 0 calc(var(--about-me-padding) * 2) 0;
 }
-.right-column > p {
+.right-column.about > p {
 padding: 0 0 calc(var(--about-me-padding) * 1.5) 0;
 }
-div > .left-column {
+div > .left-column.about {
     box-shadow: 0px 12px 15px 10px #FAFBFF;
+    padding-left: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+div > .right-column.about {
     padding-left: 100px;
 }
-div > .right-column {
-    padding-left: 150px;
+.about-img {
+    width: 80%;
 }
+.container.about-me {
+    margin-top: 50px;
+}
+
