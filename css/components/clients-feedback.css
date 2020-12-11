@@ -1,3 +1,6 @@
+.clients-feedback {
+    background-color: #f9f9ff;
+}
 .row.clients-feedback {
     column-gap: 30px;
     row-gap: 5px;
@@ -11,10 +14,12 @@ div.row.clients-feedback-main {
     text-transform: capitalize;
 }
     div.clients-feedback-l {
+        background: #fff;
         grid-column: 2 / 7;
         padding: 25px 30px 10px 30px;
     }
     div.clients-feedback-r {
+        background-color: #fff;
         grid-column: 7 / 12;
         padding: 25px 30px 10px 30px;
     }
