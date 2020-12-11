@@ -46,6 +46,19 @@ h4 {
     text-transform: capitalize;
     font-size: 18px;
 }
+a {
+    font-size: 12px;
+    text-transform: uppercase;
+    outline: none;
+    text-decoration: none;
+}
+    a:hover {
+        color: #8490ff;
+    }
+p {
+    color: #777777;
+    font-size: 14px;
+}
 /* header */
 /* hero-home */
 /* about-me */
