@@ -43,6 +43,7 @@ h3 {
     font-size: 36px;
 }
 h4 {
+    text-transform: capitalize;
     font-size: 18px;
 }
 /* header */
