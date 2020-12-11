@@ -30,4 +30,5 @@ div > .right-column.about {
 .about > h4 {
     font-size: 14px;
     font-weight: 400;
+    letter-spacing: 2px;
 }
