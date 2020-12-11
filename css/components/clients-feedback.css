@@ -1,0 +1,78 @@
+.clients-feedback {
+    background-color: #f9f9ff;
+}
+.row.clients-feedback {
+    column-gap: 30px;
+    row-gap: 5px;
+}
+    .center-clients-feedback {
+        grid-column: 3 / 11;
+    }
+div.row.clients-feedback-main {
+    padding-bottom: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+    div.clients-feedback-l {
+        background: #fff;
+        grid-column: 2 / 7;
+        padding: 25px 30px 10px 30px;
+    }
+    div.clients-feedback-r {
+        background-color: #fff;
+        grid-column: 7 / 12;
+        padding: 25px 30px 10px 30px;
+    }
+    div.clients-feedback-l > div.cont-left {
+            width: 10%;
+            display: inline-block;
+            float: left;
+        }
+
+        div.clients-feedback-l > div.cont-right {
+            width: 85%;
+            display: inline-block;
+            float: right;
+
+        }
+    div.clients-feedback-r > div.cont-left {
+            width: 10%;
+            display: inline-block;
+            float: left;
+        }
+    div.clients-feedback-r > div.cont-right {
+            width: 85%;
+            display: inline-block;
+            float: right;
+        }
+            div.cont-left > img{
+                display: block;
+                width: 90%;
+            }
+    .cont-arrow {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-areas:
+        ". a a a ."
+        ". b b b ."
+        ". c c c ."
+        ". d d d .";
+    }
+    .cont-arrow > span.arrow-up {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        grid-area: b;
+    }
+    .cont-arrow > span.arrow-down {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        grid-area: c;
+    }
+    /* ARROWS position fix START*/
+
+    /* ARROWS position fix END*/
