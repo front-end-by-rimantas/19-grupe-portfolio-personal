@@ -1,0 +1,14 @@
+:root{ --this-me-padding: 25px;
+}
+.left-column.this > h4 {
+padding: calc(var(--this-me-padding) * 5) 0 calc(var(--this-me-padding) * 1) 0;
+}
+.left-column.this > h1 {
+padding: 0 0 calc(var(--this-me-padding) * 1) 0;
+}
+.left-column.this > p {
+padding: 0 0 calc(var(--this-me-padding) * 1) 0;
+}
+.this-me {
+    background-color: #F9F9FF;
+}
