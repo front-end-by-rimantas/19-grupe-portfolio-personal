@@ -76,6 +76,7 @@ p {
 
 .post-header > h3 {
     text-transform: capitalize;
+    padding-bottom: 30px;
 }
 
 .post-block > p {
