@@ -37,3 +37,7 @@ i {
     text-align: center;
     line-height: 50px;
 }
+
+.footer-block > .fa {
+    color: white;
+}
