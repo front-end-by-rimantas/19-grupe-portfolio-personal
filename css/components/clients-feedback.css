@@ -31,12 +31,10 @@ div.row.clients-feedback-main {
             float: left;
             margin-right: 20px;
         }
-
         div.clients-feedback-l > div.cont-right {
             width: 85%;
             display: inline-block;
             float: right;
-
         }
     div.clients-feedback-r > div.cont-left {
         width: 10%;
@@ -50,7 +48,7 @@ div.row.clients-feedback-main {
         display: inline-block;
         float: right;
         }
-            div.cont-left > img{
+            div.cont-left > img {
             display: block;
             width: 35px;
             }
