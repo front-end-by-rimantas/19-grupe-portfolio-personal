@@ -46,13 +46,17 @@ body {
 
 /* posts */
 
+.container > .row > .post-header {
+    grid-column: 3/11;
+}
+
 /* partners */
 
 /* footer */
 
 @media (max-width: 1300px) {
     .container {
-        grid-template-columns: 1fr 980px 1fr;
+        grid-template-columns: 1fr 980px 1fr;       
     }
         .container > .row > .col-lg-1 { grid-column: auto / span 1; }
         .container > .row > .col-lg-2 { grid-column: auto / span 2; }
