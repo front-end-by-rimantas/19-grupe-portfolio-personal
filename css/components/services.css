@@ -22,3 +22,10 @@
     width: 30px;
     margin-bottom: 30px;
 }
+
+.block:hover > img {
+    background-image: linear-gradient(to right, #8490ff, #62bdfc);
+}
+.block:hover > h4 {
+    color: #8490ff;
+}
