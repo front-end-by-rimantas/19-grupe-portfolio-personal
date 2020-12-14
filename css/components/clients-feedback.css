@@ -4,6 +4,7 @@
 .row.clients-feedback {
     column-gap: 30px;
     row-gap: 5px;
+    position: relative;
 }
     .center-clients-feedback {
         grid-column: 3 / 11;
@@ -15,18 +16,20 @@ div.row.clients-feedback-main {
 }
     div.clients-feedback-l {
         background: #fff;
-        grid-column: 2 / 7;
-        padding: 25px 30px 10px 30px;
+        grid-column: 1 / 7;
+        padding: 25px 30px 12px 30px;
     }
     div.clients-feedback-r {
         background-color: #fff;
-        grid-column: 7 / 12;
-        padding: 25px 30px 10px 30px;
+        grid-column: 7 / 13;
+        padding: 25px 30px 12px 30px;
     }
     div.clients-feedback-l > div.cont-left {
             width: 10%;
+            height: 100%;
             display: inline-block;
             float: left;
+            margin-right: 20px;
         }
 
         div.clients-feedback-l > div.cont-right {
@@ -36,43 +39,40 @@ div.row.clients-feedback-main {
 
         }
     div.clients-feedback-r > div.cont-left {
-            width: 10%;
-            display: inline-block;
-            float: left;
+        width: 10%;
+        height: 100%;
+        display: inline-block;
+        float: left;
+        margin-right: 20px;
         }
     div.clients-feedback-r > div.cont-right {
-            width: 85%;
-            display: inline-block;
-            float: right;
+        width: 85%;
+        display: inline-block;
+        float: right;
         }
             div.cont-left > img{
-                display: block;
-                width: 90%;
+            display: block;
+            width: 35px;
             }
-    .cont-arrow {
-        width: 100%;
-        height: 100%;
-        display: grid;
-        grid-template-areas:
-        ". a a a ."
-        ". b b b ."
-        ". c c c ."
-        ". d d d .";
-    }
-    .cont-arrow > span.arrow-up {
-        display: inline-block;
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        grid-area: b;
-    }
-    .cont-arrow > span.arrow-down {
-        display: inline-block;
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        grid-area: c;
-    }
-    /* ARROWS position fix START*/
-
-    /* ARROWS position fix END*/
+        .cont-arrow {
+            display: inline-block;
+            width: 50px;
+            position: absolute;
+            left: 1210px;
+            top: 20%;
+            text-align: center;
+            background-color: #fff;
+            box-shadow: -15px 15px 20px #9d9d9d28;
+        }
+        .cont-arrow > span.arrow-up {
+            display: inline-block;
+            width: 100%;
+            padding: 15px 15px;
+            border: 1px solid #f5f5f5;
+        }
+        .cont-arrow > span.arrow-down {
+            display: inline-block;
+            width: 100%;
+            padding: 15px 15px;
+            border: 1px solid #f5f5f5;
+        }
