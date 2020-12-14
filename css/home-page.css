@@ -81,27 +81,24 @@ p {
 /* plan */
 /* posts */
 
-h3 {
+.post p {
+    line-height: 21px;
+    font-size: 15px;
+}
+
+.post-header > h3 {
     text-transform: capitalize;
-    color: #000;
-    font-size: 33px;
     padding-bottom: 30px;
 }
 
-h4 {
-    padding: 15px 0;
+.post-block > p {
+    text-align: initial;
 }
 
-p {
-    color: #80828D;
-    font-size: 15px;
-    line-height: 21px;
-}
-
-.label > img {
+.post-block > .label > img {
     width: 100%;
     height: auto;
-  } 
+} 
 
 
 /* partners */
