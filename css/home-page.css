@@ -66,6 +66,18 @@ p {
 /* projects-completed */
 /* projects */
 /* clients-feedback */
+.center-clients-feedback > h3 {
+    margin-bottom: 10px;
+}
+.center-clients-feedback > p {
+    margin-bottom: 15px;
+}
+.cont-right > h4.cont-right-text {
+    margin-bottom: 5px;
+}
+.cont-right > p.cont-right-text {
+    margin-bottom: 15px;
+}
 /* plan */
 /* posts */
 
