@@ -1,0 +1,44 @@
+footer {
+    background-color:#04091e;
+}
+
+.footer-block > h4 {
+    color: white;
+}
+/* .footer-block {
+    background-color: rgb(124, 90, 90);
+} */
+
+.footer-block > p {
+    text-align: left;
+    line-height: 30px;
+}
+i {
+    padding: 8px 8px 8px 8px;
+}
+
+.input {
+    display: inline-block;
+    width: calc(100% - 50px);
+    height: 50px;
+    float: left;
+    padding-left: 20px;
+    
+}
+.input-form-row {
+    padding-top: 10px;
+}
+.mygtukas {
+    display: inline-block;
+    background-color: #8490ff;
+    color: white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.footer-block > .fa {
+    color: white;
+    margin-top: 15px;
+}
