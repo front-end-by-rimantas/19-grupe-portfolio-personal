@@ -1,22 +1,21 @@
 .partners {
-    background-color: #8490ff;
-    background: linear-gradient(to right,#8490ff, #62BCFC);
+    /* background-color: #8490ff; */
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
 }
-.l1 {
-    grid-column: 2/3;
+
+.partners-block {
+    width: 100%;
+    display: flex;
 }
-.l2 {
-    grid-column: 4/5;
+
+.partners-block img {
+    flex: 1;
+    padding: 0 40px;
+    margin: 0 15px;
+    text-align: center;
 }
-.l3 {
-    grid-column: 6/7;
-}
-.l4 {
-    grid-column: 8/9;
-}
-.l5 { 
-    grid-column: 10/11;
-}
-.labels {
-    padding-left: 50px;
+
+.partners-block img:hover {
+    cursor: pointer;
+    filter: drop-shadow(0 0 0px #fff); 
 }
