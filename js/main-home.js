@@ -2,6 +2,8 @@
 ALL IMPORTS
 ****************/
 /* header */
+import { renderHeader } from './components/header/renderHeader.js';
+import { headerData } from './data/headerData.js';
 /* this is me */
 /* about me */
 /* services */
@@ -17,6 +19,7 @@ ALL IMPORTS
 EXECUTION
 ****************/
 /* header */
+renderHeader('header nav', headerData);
 /* this is me */
 /* about me */
 /* services */
