@@ -1,0 +1,21 @@
+.partners {
+    /* background-color: #8490ff; */
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+}
+
+.partners-block {
+    width: 100%;
+    display: flex;
+}
+
+.partners-block img {
+    flex: 1;
+    padding: 0 40px;
+    margin: 0 15px;
+    text-align: center;
+}
+
+.partners-block img:hover {
+    cursor: pointer;
+    filter: drop-shadow(0 0 0px #fff); 
+}
