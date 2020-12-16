@@ -74,3 +74,6 @@ div.row.clients-feedback-main {
             padding: 15px 15px;
             border: 1px solid #f5f5f5;
         }
+h4:hover {
+    color: #8490ff;
+}
