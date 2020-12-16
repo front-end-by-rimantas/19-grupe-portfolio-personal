@@ -77,7 +77,13 @@ div.row.clients-feedback-main {
 
 h4:hover {
     color: #8490ff;
+    animation-name: letters;
+    animation-duration: 1s;
 }
+@keyframes letters {
+    from {color: rgba(0, 0, 0, 0.5);}
+    to {color: #8490ff;}
+  }
 
 .fa-arrow-up:hover {
     background-color: #8490ff;
