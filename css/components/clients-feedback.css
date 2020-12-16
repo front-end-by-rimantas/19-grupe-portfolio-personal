@@ -77,12 +77,7 @@ div.row.clients-feedback-main {
             border: 1px solid #f5f5f5;
         }
 
-.clients-feedback-l:hover > h4 {
-    color: #8490ff;
-    animation-name: letters;
-    animation-duration: 1s;
-}
-.clients-feedback-r:hover > h4 {
+.cont-right-text:hover > h4 {
     color: #8490ff;
     animation-name: letters;
     animation-duration: 1s;
