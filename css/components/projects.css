@@ -9,17 +9,14 @@
     text-align: center;
 }
 
-
-
-.filters > h4 {
+.all {
+    color: #8490ff;
     font-size: 14px;
     display: inline-block;
     padding-left: 40px;
     text-align: center;
-
 }
-.filters > h2 {
-    color: #8490ff;
+.filters > li {
     font-size: 14px;
     display: inline-block;
     padding-left: 40px;
@@ -31,8 +28,8 @@
     padding-top: 60px;
     display: inline-block;
     padding-bottom: 60px;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 368px;
+    padding-right: 368px;
     
 }
 .filters-content {
