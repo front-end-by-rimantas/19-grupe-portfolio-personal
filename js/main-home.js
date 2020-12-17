@@ -4,6 +4,9 @@ ALL IMPORTS
 /* header */
 import { renderHeader } from './components/header/renderHeader.js';
 import { headerData } from './data/headerData.js';
+$(window).scroll(function() {
+    $('header').toggleClass('scroll', $(this).scrollTop() > 114);
+  });
 /* this is me */
 /* about me */
 /* services */
