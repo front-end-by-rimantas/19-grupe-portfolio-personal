@@ -32,12 +32,13 @@ renderHeader('header nav', headerData);
 /* projects */
 /* clients feedback about me */
 new renderClientsFeedback({
-  selector: '',
+  selector: '#testimonials_block',
   data: clientsFeedbackData,
   maxItems: 4,
   cloneCount: 2,
   visibilitystrategy: 'random',
 });
+
 /* choose your plan */
 /* posts */
 /* partners */

@@ -1,53 +1,53 @@
 .clients-feedback {
     background-color: #f9f9ff;
 }
-.row.clients-feedback {
+/* .row.clients-feedback {
     column-gap: 30px;
     row-gap: 5px;
     position: relative;
-}
-    .center-clients-feedback {
-        grid-column: 3 / 11;
-    }
-div.row.clients-feedback-main {
+} */
+
+.header-clients-feedback {
     padding-bottom: 30px;
     text-align: center;
     text-transform: capitalize;
 }
-    div.clients-feedback-l {
+.testimonial {
+    position: relative;
+}
+    .testimonial > .view {
+        overflow: hidden;
+    }
+    div.clients-feedback-item {
+        display: inline-block;
+        float: left;
+        width: 48%;
+        height: 100%;
         background: #fff;
-        grid-column: 1 / 7;
         padding: 25px 30px 12px 30px;
     }
-    div.clients-feedback-r {
-        background-color: #fff;
-        grid-column: 7 / 13;
-        padding: 25px 30px 12px 30px;
+
+    /* sprendimas del nelygio paddingo */
+    div.clients-feedback-item:nth-of-type(2n) {
+        margin-left: 35px;
+        padding: 25px 30px 27px 30px;
     }
-    div.clients-feedback-l > div.cont-left {
+    /* sprendimas del nelygio paddingo */
+
+    div.clients-feedback-item > div.cont-left {
             width: 10%;
             height: 100%;
             display: inline-block;
             float: left;
             margin-right: 20px;
         }
-        div.clients-feedback-l > div.cont-right {
+        div.clients-feedback-item > div.cont-right {
             width: 85%;
+            height: 100%;
             display: inline-block;
             float: right;
         }
-    div.clients-feedback-r > div.cont-left {
-        width: 10%;
-        height: 100%;
-        display: inline-block;
-        float: left;
-        margin-right: 20px;
-        }
-    div.clients-feedback-r > div.cont-right {
-        width: 85%;
-        display: inline-block;
-        float: right;
-        }
+
             div.cont-left > img {
             display: block;
             width: 35px;
@@ -84,13 +84,7 @@ div.row.clients-feedback-main {
     animation-duration: 1.5s;
 } */
 
-.clients-feedback-l:hover > .cont-right > h4.cont-right-text {
-    color: #8490ff;
-    animation-name: letters;
-    animation-duration: 0.5s;
-
-}
-.clients-feedback-r:hover > .cont-right > h4.cont-right-text {
+.clients-feedback-item:hover > .cont-right > h4.cont-right-text {
     color: #8490ff;
     animation-name: letters;
     animation-duration: 0.5s;
