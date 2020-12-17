@@ -7,128 +7,480 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/home-page.css">
 </head>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <body>
     <!-- header begin -->
     <header class="container">
         <div class="row">
-            HEADER: logo + nav
+            <div class="col-12">
+                <img class="logo" src="./img/logo.png" alt="Logo">
+                <nav></nav>
+            </div>
         </div>
     </header>
     <!-- header end -->
 
-    <!-- section HERO begin -->
-    <section class="container">
-        <div class="row">
-            HERO
+    <!-- section THIS IS ME begin -->
+    <section class="container this-me" style="padding-bottom: 0px; margin-top: 70px;">
+        <div class="row this-me">
+            <div class="left-column this col-6">
+                <h4>THIS IS ME</h4>
+                <h1>PHILIP GILBERT</h1>
+                <p>You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures.  </p>
+                <a href="#" class="btn">DISCOVER NOW</a>
+            </div>
+            <div class="right-column this col-6">
+                <img src="img/hero-img.png" alt="hero-img">
+            </div>                
         </div>
     </section>
-    <!-- section HERO end -->
+    <!-- section THIS IS ME end -->
 
-    <!-- section FEATURES begin -->
-    <section class="container">
-        <div class="row">
-            FEATURES
+    <!-- section ABOUT ME begin -->
+    <section class="container about-me">
+        <div class="row about-me">
+            <div class="left-column about col-6">
+                <img class="about-img" src="img/about-img.png" alt="about-img">
+            </div>                
+            <div class="right-column about col-6">
+                    <h4 class="about">ABOUT ME</h4>
+                    <h2 class="about" style="margin-bottom: 0;">PERSONAL DETAILS</h2>
+                    <p class="about">Here, I focus on a range of items and features that we use in life without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. </p>
+                    <a href="#" class="btn">VIEW FULL DETAILS</a>
+            </div>
         </div>
     </section>
-    <!-- section FEATURES end -->
+    <!-- section ABOUT ME end -->
 
-    <!-- section APP PROMO begin -->
+    <!-- section SERVICES begin -->
     <section class="container">
-        <div class="row">
-            APP PROMO
-        </div>
-    </section>
-    <!-- section APP PROMO end -->
 
-    <!-- section APP PROMO 2 begin -->
-    <section class="container">
         <div class="row">
-            APP PROMO 2
-        </div>
-    </section>
-    <!-- section APP PROMO 2 end -->
+            <div class="col-12"> 
+                <div class="label">
+                <h3>My Offered Services</h3>
+                </div>
 
-    <!-- section HOW WORKS? begin -->
-    <section class="container">
         <div class="row">
-            HOW WORKS?
+                    <div class="col-6 col-sm-9 col-xs-12 ali">
+                        <p>At about this time of year, some months after New Year’s resolutions have been made and kept, or made and neglected..</p> </div>
         </div>
-    </section>
-    <!-- section HOW WORKS? end -->
+        </div>    
+        </div>
 
-    <!-- section GALLERY begin -->
-    <section class="container">
         <div class="row">
-            GALLERY
+            <div class="col-4 col-sm-6 col-xs-12">
+                <div class="block">
+                    <svg class="lnr lnr-pie-chart"><use xlink:href="#lnr-pie-chart"></use>
+                        <defs>
+                            <linearGradient id="LinGradient">
+                                <stop offset="5%" stop-color=" #8490ff" />
+                                <stop offset="95%" stop-color="#62bdfc" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <h4>Web Design</h4>
+                    <p>“It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult.”</p>
+            </div>
         </div>
-    </section>
-    <!-- section GALLERY end -->
 
-    <!-- section TESTIMONIALS begin -->
-    <section class="container">
-        <div class="row">
-            TESTIMONIALS
-        </div>
-    </section>
-    <!-- section TESTIMONIALS end -->
+        <div class="col-4 col-sm-6 col-xs-12">
+            <div class="block">
+                    <svg class="lnr lnr-laptop-phone"><use xlink:href="#lnr-laptop-phone"></use>
+                        <defs>
+                            <linearGradient id="LinGradient">
+                                <stop offset="5%" stop-color=" #8490ff" />
+                                <stop offset="95%" stop-color="#62bdfc" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <h4>Web Development</h4>
+                    <p>If you are an entrepreneur, you know that your success cannot depend on the opinions of others. Like the wind, opinions.</p>
+            </div>   
+        </div>   
 
-    <!-- section PRICING begin -->
-    <section class="container">
-        <div class="row">
-            PRICING
+        <div class="col-4 col-sm-6 col-xs-12">
+            <div class="block">
+                    <svg class="lnr lnr-camera"><use xlink:href="#lnr-camera"></use>
+                        <defs>
+                            <linearGradient id="LinGradient">
+                                <stop offset="5%" stop-color=" #8490ff" />
+                                <stop offset="95%" stop-color="#62bdfc" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <h4>Photography</h4>
+                    <p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills.</p>
+            </div>  
         </div>
-    </section>
-    <!-- section PRICING end -->
 
-    <!-- section FAQ begin -->
-    <section class="container">
-        <div class="row">
-            FAQ
+            <div class="col-4 col-sm-6 col-xs-12">
+                <div class="block">
+                    <svg class="lnr lnr-picture"><use xlink:href="#lnr-picture"></use>
+                        <defs>
+                            <linearGradient id="LinGradient">
+                                <stop offset="5%" stop-color=" #8490ff" />
+                                <stop offset="95%" stop-color="#62bdfc" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <h4>Clipping Path</h4>
+                    <p>Hypnosis quit smoking methods maintain caused quite a stir in the medical world over the last two decades. There is a lot of argument.</p>
+            </div>
         </div>
-    </section>
-    <!-- section FAQ end -->
 
-    <!-- section TEAM begin -->
-    <section class="container">
-        <div class="row">
-            TEAM
+            <div class="col-4 col-sm-6 col-xs-12">
+                <div class="block">
+                    <svg class="lnr lnr-tablet"><use xlink:href="#lnr-tablet"></use>
+                        <defs>
+                            <linearGradient id="LinGradient">
+                                <stop offset="5%" stop-color=" #8490ff" />
+                                <stop offset="95%" stop-color="#62bdfc" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <h4>Apps Interface</h4>
+                    <p>Do you sometimes have the feeling that you’re running into the same obstacles over and over again? Many of my conflicts.</p>
+            </div>
         </div>
-    </section>
-    <!-- section TEAM end -->
 
-    <!-- section APP STORE begin -->
-    <section class="container">
-        <div class="row">
-            APP STORE
+        <div class="col-4 col-sm-6 col-xs-12">
+            <div class="block">
+                <svg class="lnr lnr-rocket"><use xlink:href="#lnr-rocket"></use>
+                    <defs>
+                        <linearGradient id="MyGradient">
+                            <stop offset="5%" stop-color=" #8490ff" />
+                            <stop offset="95%" stop-color="#62bdfc" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <h4>Graphic Design</h4>
+                <p>You’ve heard the expression, “Just believe it and it will come.” Well, technically, that is true, however, ‘believing’ is not just thinking that.</p>
         </div>
-    </section>
-    <!-- section APP STORE end -->
+    </div>
 
-    <!-- section SUBSCRIBE begin -->
-    <section class="container">
-        <div class="row">
-            SUBSCRIBE
-        </div>
     </section>
-    <!-- section SUBSCRIBE end -->
+    <!-- section SERVICES end -->
 
-    <!-- section CONTACT begin -->
+    <!-- section PROJECTS COMPLETED begin -->
+    <section class="facts-area section -gap" id="facts-area">
+            <div class="container">   
+                <div class="row">
+                    <div class="col-3 col-md-6 single-fact">
+                        <h3 class="counter">2536</h3>
+                        <p class="text">Projects Completed</p>
+                    </div>
+                    <div class="col-3 col-md-6 single-fact">
+                        <h3 class="counter">6784</h3>
+                        <p class="text">Happy Clients</p>
+                    </div>
+                    <div class="col-3 col-md-6 single-fact">
+                        <h3 class="counter">2239</h3>
+                        <p class="text">Cups of Coffee</p>
+                    </div>
+                    <div class="col-3 col-md-6 single-fact">
+                        <h3 class="counter">434</h3>
+                        <p class="text">Real Professionals</p>
+                    </div>     
+                </div>
+            </div>
+     </section>
+    <!-- section PROJECTS COMPLETED end -->
+
+    <!-- section PROJECTS begin -->
     <section class="container">
-        <div class="row">
-            CONTACT
+
+            <div class="row">
+                <div class="col-12"> 
+                    <div class="label">
+                        <h3>Our Latest Featured Projects</h3>  
+                    </div>    
+                       
+            <div class="row">
+                    <div class="col-6 col-sm-9 col-xs-12 ali">
+                    <p>Who are in extremely love with eco friendly system.</p> </div>
+                        
+            </div>  
+            </div>      
+            </div> 
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="filters">
+                        <li class="all">ALL</li>
+                        <li>VECTOR</li>
+                        <li>RASTER</li>
+                        <li>UI/UX</li>
+                        <li>PRINTING</li>
+            
+            </div>
+            </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4 col-sm-6 col-xs-12">
+                    <div class="filters-content">
+                        <img src="./img/p1.jpg" alt="">
+                        <h4>2D Vinyl Design</h4>
+                        <p>vector</p>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-xs-12">
+                    <div class="filters-content">
+                        <img src="./img/p2.jpg" alt="">
+                        <h4>2D Vinyl Design</h4>
+                        <p>vector</p>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-xs-12">
+                    <div class="filters-content">
+                        <img src="./img/p3.jpg" alt="">
+                        <h4>Creative Poster Design</h4>
+                        <p>Agency</p>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-xs-12">
+                    <div class="filters-content">
+                        <img src="./img/p4.jpg" alt="">
+                        <h4>Embosed Logo Design</h4>
+                        <p>Portal</p>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-xs-12">
+                    <div class="filters-content">
+                        <img src="./img/p5.jpg" alt="">
+                        <h4>3D Helmet Design</h4>
+                        <p>vector</p>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-6 col-xs-12">
+                    <div class="filters-content">
+                        <img src="./img/p6.jpg" alt="">
+                        <h4>2D Vinyl Design</h4>
+                        <p>raster</p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+
+    </section>
+    
+    <!-- section PROJECTS end -->
+
+    <!-- section CLIENT'S FEEDBACK ABOUT ME begin -->
+    <section class="container clients-feedback">
+        <div class="row clients-feedback-main">
+            <div class="center-clients-feedback">
+                <h3>Client’s Feedback About Me</h3>
+                <p>It is very easy to start smoking but it is an uphill task to quit it. Ask any chain smoker or even a person.</p>
+            </div>
+        </div>
+        <div class="row clients-feedback">
+                <div class="clients-feedback-l">
+                    <div class="cont-left">
+                        <img src="./img/users/user1.png" alt="An image of a user">
+                    </div>
+                    <div class="cont-right">
+                        <p class="cont-right-text"> Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills, the bigger the payoff you.</p>
+                        <h4 class="cont-right-text">Harriet Maxwell</h4>
+                        <p class="cont-right-text">CEO at Google</p>
+                    </div>
+                </div>
+                <div class="clients-feedback-r">
+                    <div class="cont-left">
+                        <img src="./img/users/user2.png" alt="An image of a user">
+                    </div>
+                    <div class="cont-right">
+                        <p class="cont-right-text">A purpose is the eternal condition for success. Every former smoker can tell you just how hard it is to stop smoking cigarettes. However.</p>
+                        <h4 class="cont-right-text">Carolyn Craig</h4>
+                        <p class="cont-right-text">CEO at Facebook</p>
+                    </div>
+                </div>
+                <div class="cont-arrow clients-feedback">
+                    <!-- <span class="lnr lnr-arrow-up" aria-hidden="true"></span>
+                    <span class="lnr lnr-arrow-down" aria-hidden="true"></span> -->
+                    <svg class="lnr lnr-arrow-up"><use xlink:href="#lnr-arrow-up"></use></svg> 
+                    <svg class="lnr lnr-arrow-down"><use xlink:href="#lnr-arrow-down"></use></svg> 
+                    
+                </div>
         </div>
     </section>
-    <!-- section CONTACT end -->
+    <!-- section CLIENT'S FEEDBACK ABOUT ME end -->
+
+    <!-- section CHOOSE YOUR PLAN begin -->
+    <section class="container">
+        <div class="row choose-plan">
+            <div class="col-12">
+                <h3 class="cho">Choose Your Plan</h3>
+                <p class="when">When someone does something that they know that they shouldn’t do, did they.</p>
+            </div>
+        <div class="grid plans col-12">
+                <div class="plan1">
+                    <div>
+                        <div class="align">
+                        <p class="border">01</p>
+                    </div>
+                        <h4 class="plan-name">Economy</h4>
+                        <p class="ind">For the individuals</p>
+                    </div>
+                    <p class="pa">Secure Online Transfers</p>
+                    <p class="pa">Unlimited Styles for interface</p>
+                    <p class="pa">Reliable Customer Services</p>
+                    <p class="pa price">£199.00</p>
+                </div>
+                <div class="plan2">
+                    <div>
+                       <div class="align"><p class="border">02</p></div>
+                        <h4 class="plan-name">Business</h4>
+                        <p class="ind">For the individuals</p>
+                    </div>
+                    <p class="pa">Secure Online Transfers</p>
+                    <p class="pa">Unlimited Styles for interface</p>
+                    <p class="pa">Reliable Customer Services</p>
+                    <p class="pa price">£299.00</p>
+                </div>
+                <div class="plan3">
+                    <div>
+                   <div class="align"><p class="border">03</p></div>
+                        <h4 class="plan-name">Premium</h4>
+                        <p class="ind">For the individuals</p>
+                    </div>
+                    <p class="pa">Secure Online Transfers</p>
+                    <p class="pa">Unlimited Styles for interface</p>
+                    <p class="pa">Reliable Customer Services</p>
+                    <p class="pa price">£399.00</p>
+                </div>
+                <div class="plan4">
+                    <div>
+                    <div class="align"><p class="border">04</p></div>
+                        <h4 class="plan-name">Exclusive</h4>
+                        <p class="ind">For the individuals</p>
+                    </div>
+                    <p class="pa">Secure Online Transfers</p>
+                    <p class="pa">Unlimited Styles for interface</p>
+                    <p class="pa">Reliable Customer Services</p>
+                    <p class="pa price">£499.00</p>
+                </div>   
+        </div>
+    </section>
+    <!-- section CHOOSE YOUR PLAN end -->
+
+    <!-- section POSTS begin -->
+    <section class="container post">
+        <div class="row">
+            <div class="col-8 post-header">
+                <h3>Latest Posts From Our Blog</h3>
+                <p>You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving and expanding the business</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 col-sm-6 col-xs-12 post-block">
+                <div class="label">
+                    <img src="img/b1.jpg">
+                </div>
+                <div class="post-user">
+                    <div class="post-user-left">
+                        <img src="img/users/user.png">
+                        <a href="#"><span style="color:#777777">Mark Wiens</span></a>
+                    </div>
+                    <div class="post-user-right">
+                        <p>13th Dec <i class="fa fa-heart-o" aria-hidden="true"></i> 15 <i class="fa fa-comment-o" aria-hidden="true"></i> 04</p>
+                    </div>
+                </div>
+                <a href="#"><h4>BREAK THROUGH SELF DOUBT AND FEAR</h4></a>
+                <p>Dream interpretation has many forms; it can be done be done for the sake of fun, hobby or can be taken up as a serious career.</p>
+            </div>
+            <div class="col-4 col-sm-6 col-xs-12 post-block">
+                <div class="label">
+                    <img src="img/b2.jpg">
+                </div>
+                <div class="post-user">
+                    <div class="post-user-left">
+                        <img src="img/users/user.png">
+                        <a href="#"><span style="color:#777777">Mark Wiens</span></a>
+                    </div>
+                    <div class="post-user-right">
+                        <p>13th Dec <i class="fa fa-heart-o" aria-hidden="true"></i> 15 <i class="fa fa-comment-o" aria-hidden="true"></i> 04</p>
+                    </div>
+                </div>
+                <a href="#"><h4>BREAK THROUGH SELF DOUBT AND FEAR</h4></a>
+                <p>You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of improving.</p>
+            </div>
+            <div class="col-4 col-sm-6 col-xs-12 post-block">
+                <div class="label">
+                    <img src="img/b3.jpg">
+                </div>
+                <div class="post-user">
+                    <div class="post-user-left">
+                        <img src="img/users/user.png">
+                        <a href="#"><span style="color:#777777">Mark Wiens</span></a>
+                    </div>
+                    <div class="post-user-right">
+                        <p>13th Dec <i class="fa fa-heart-o" aria-hidden="true"></i> 15 <i class="fa fa-comment-o" aria-hidden="true"></i> 04</p>
+                    </div>
+                </div>
+                <a href="#"><h4>BREAK THROUGH SELF DOUBT AND FEAR</h4></a>
+                <p>So many of us are demotivated to achieve anything. Such people are not enthusiastic about anything. They don’t want to work involved.</p>
+            </div>
+        </div>
+    </section>
+    <!-- section POSTS end -->
+
+    <!-- section PARTNERS begin -->
+    <section class="container partners">
+        <div class="row">
+            <div class="col-12 partners-block">
+                <img src="./img/l1.png" alt="logo">
+                <img src="./img/l2.png" alt="logo">
+                <img src="./img/l3.png" alt="logo">
+                <img src="./img/l4.png" alt="logo">
+                <img src="./img/l5.png" alt="logo">
+            </div>
+        </div>
+    </section>
+    <!-- section PARTNERS end -->
 
     <!-- footer begin -->
     <footer class="container">
         <div class="row">
-            FOOTER
+            <div class="col-5 col-sm-10 col-xs-12">
+                <div class="footer-block">
+                    <h4>About Me</h4>
+                    <p>We have tested a number of registry fix and clean utilities and present our top 3 list on our site for your convenience.<br>
+                    Copyright ©2020 All rights reserved | This template is made with <i class="fa fa-heart"></i> by 
+                    <a href="#">Colorlib</a> </br></p>
+                </div>
+            </div>
+ 
+                <div class="col-5 col-sm-10 col-xs-12">
+                    <div class="footer-block">
+                        <h4>Newsletter</h4>
+                        <p>Stay updated with our latest trends</p>
+                    </div>
+
+                    <div class="input-form-row">
+                    <input class="input" id="email" type="email" placeholder="Enter Email Adress">
+                    
+                        <div class="mygtukas fa fa-arrow-right"></div>
+                    
+                    </div>
+                </div>
+
+            <div class="col-2 col-sm-12 col-xs-12">
+                <div class="footer-block">
+                    <h4>Folow Me</h4>
+                    <p>Let us be social</p>
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-dribbble"></i>
+                    <i class="fa fa-behance"></i>
+                </div>
+            </div>
         </div>
     </footer>
     <!-- footer end -->
 
+    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
     <script src="./js/main-home.js" type="module"></script>
 </body>
 

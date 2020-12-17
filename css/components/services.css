@@ -1,0 +1,41 @@
+.container > .row > * {
+    /* background-color: pink; */
+    
+}
+
+.block {
+    padding: 40px;
+    text-align: center;
+
+}
+
+.label > h3 {
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+.ali > p {
+    text-align: center;
+}
+
+.block .lnr {
+    display: inline-block;
+    fill: currentColor;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+.block:hover .lnr {
+    fill: url(#LinGradient);
+}
+.block:hover > h4 {
+    animation: fillGradient-text 0.2s forwards;
+}
+
+@keyframes fillGradient-text {
+    0% {
+        color: #222222;
+    }
+    100% {
+        color: #8490ff;
+    }
+}
