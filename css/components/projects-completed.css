@@ -1,0 +1,52 @@
+.facts-area { 
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    padding: 60px 0;
+}
+.counter {
+font-size: 36px;
+font-weight: 700;
+height: 43px;
+line-height: 43.2px;
+margin-block-end: 0px;
+margin-block-start: 0px;
+margin-bottom: 0px;
+margin-inline-end: 0px;
+margin-inline-start: 0px;
+margin-top: 0px;
+text-align: center;
+text-size-adjust: 100%;
+width: 210px;
+box-sizing: border-box;
+color: #fff;
+}
+.text {
+text-align: center;
+font-size: 14px;
+font-weight: 300;
+height: 22px;
+line-height: 22.75px;
+margin-block-end: 16px;
+margin-block-start: 0px;
+margin-bottom: 16px;
+margin-inline-end: 0px;
+margin-inline-start: 0px;
+margin-top: 0px;
+text-size-adjust: 100%;
+width: 210px;
+position: relative;
+color: #fff;
+}
+.single-fact {
+    flex-basis: 25%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
