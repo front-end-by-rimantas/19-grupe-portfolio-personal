@@ -3,6 +3,7 @@ header.container {
     position: fixed;
     background-color: white;
     width: 100%;
+    transition: 1s;
 }
 header .logo {
     display: inline-block;
