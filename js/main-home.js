@@ -13,6 +13,8 @@ $(window).scroll(function() {
 /* projects completed */
 /* projects */
 /* clients feedback about me */
+import { clientsFeedbackData } from './data/clientsFeedbackData.js';
+import { renderClientsFeedback } from './components/clientsFeedback/Clients.js';
 /* choose your plan */
 /* posts */
 /* partners */
@@ -29,6 +31,13 @@ renderHeader('header nav', headerData);
 /* projects completed */
 /* projects */
 /* clients feedback about me */
+new renderClientsFeedback({
+  selector: '',
+  data: clientsFeedbackData,
+  maxItems: 4,
+  cloneCount: 2,
+  visibilitystrategy: 'random',
+});
 /* choose your plan */
 /* posts */
 /* partners */
