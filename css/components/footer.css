@@ -38,19 +38,26 @@ i {
     line-height: 50px;
 }
 
+
+
 .footer-block > .fa {
     color: white;
     margin-top: 15px;
+ 
 }
 
-.fa {
-    padding: 5px 5px;
+footer .socials-row > .fa {
+    padding: 8px;
 }
 
-footer .fa:hover {
+footer .socials-row:hover {
     color: #8490ff;
+ 
 }
 
 a:-webkit-any-link {
     color: #fff;
 }
+
+svg.lnr-arrow-right {
+    color: white;
