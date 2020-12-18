@@ -1,23 +1,4 @@
 .plans {
-    display: grid;
-}
-.plan1 {
-    grid-column: 1/4;
-    grid-row: 1/1;
-}
-.plan2 {
-    grid-column: 4/7;
-    grid-row: 1/1;
-}
-.plan3 {
-    grid-column: 7/10;
-    grid-row: 1/1;
-}
-.plan4 {
-    grid-column: 10/13;
-    grid-row: 1/1;
-}
-.plans {
     background-color: #F9F9FF;
     height: 530px;
     text-align: center;
@@ -45,9 +26,6 @@
     font-size: 36px;
     color: black;
 }
-.plan1>div .plan2 >div .plan3>div .plan4 > div{
-    display: grid;
-}
 .align {
     display: inline-block;
 }
@@ -60,7 +38,7 @@
     margin-bottom: 60px;
     text-align: center;
 }
-.price {
+.price > a {
     color: black;
     font-size: 36px;
     font-weight: 600;
@@ -69,4 +47,7 @@
 .plan-name {
 padding-top: 20px;
 padding-bottom: 15px;
+}
+.paB {
+    border-bottom: 1px solid #eee;   
 }

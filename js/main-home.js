@@ -14,6 +14,8 @@ $(window).scroll(function() {
 /* projects */
 /* clients feedback about me */
 /* choose your plan */
+import { renderPlans } from './components/plans/renderPlans.js';
+import { plansData } from './data/plansData.js';
 /* posts */
 /* partners */
 /* footer */
@@ -30,6 +32,7 @@ renderHeader('header nav', headerData);
 /* projects */
 /* clients feedback about me */
 /* choose your plan */
+renderPlans('#choose-plan', plansData);
 /* posts */
 /* partners */
 /* footer */
