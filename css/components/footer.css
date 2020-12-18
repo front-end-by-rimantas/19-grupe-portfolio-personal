@@ -50,3 +50,7 @@ i {
 footer .fa:hover {
     color: #8490ff;
 }
+
+a:-webkit-any-link {
+    color: #fff;
+}
