@@ -35,11 +35,26 @@
 .filters-content {
     text-align: center;
     display: inline-block;
-    
+    position: relative;
 
 }
 
 
 .filters-content > h4 {
     padding-top: 20px;
+}
+
+.filters-content > .filters-icon {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    padding: 150px 141px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: display 1s;
+}
+.filters-content:hover > .filters-icon {
+    display: inline-block;
+    background-image: linear-gradient(to right, #8490ffda, #62bcfcda);
 }
