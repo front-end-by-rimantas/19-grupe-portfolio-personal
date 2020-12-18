@@ -22,15 +22,17 @@
                 width:100%;
             }
 
-                .partners-block .item > .partner {
+                .partners-block .item > a .partner {
                     display:inline-block;
                     width:20%;
                     padding: 0 40px;
-                    text-align: center;
+                    object-position: center;
                     float: left;
+                    opacity: 0.5;
                 }
 
-                .partners-block .item > .partner:hover {
+                .partners-block .item > a .partner:hover {
                     cursor: pointer;
                     filter: drop-shadow(0 0 0px #fff); 
+                    opacity: 1;
                 }
