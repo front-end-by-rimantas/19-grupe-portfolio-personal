@@ -22,12 +22,10 @@
     padding-left: 40px;
     text-align: center;
     position: relative;
-    z-index: -1;
 }
 .filters > a.filter-a:hover::before {
     content: '';
     position: absolute;
-    z-index: -1;
     background-color: black;
     display: inline-block;
     height: 2px;
@@ -57,7 +55,6 @@
     text-align: center;
     display: inline-block;
     position: relative;
-    z-index: -1;
 }
 
 
@@ -67,7 +64,6 @@
 
 .filters-content > .filters-icon {
     position: absolute;
-    z-index: -1;
     display: none;
     top: 0;
     left: 0;
