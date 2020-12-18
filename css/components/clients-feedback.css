@@ -29,8 +29,8 @@
 
     /* sprendimas del nelygio paddingo */
     div.clients-feedback-item:nth-of-type(2n) {
-        margin-left: 35px;
-        padding: 25px 30px 27px 30px;
+        margin-left: 40px;
+        padding: 25px 30px 12px 30px;
     }
     /* sprendimas del nelygio paddingo */
 
@@ -39,7 +39,7 @@
             height: 100%;
             display: inline-block;
             float: left;
-            margin-right: 20px;
+            margin-right: 5px;
         }
         div.clients-feedback-item > div.cont-right {
             width: 85%;

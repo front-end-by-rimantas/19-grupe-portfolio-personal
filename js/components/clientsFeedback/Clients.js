@@ -39,7 +39,7 @@ class renderClientsFeedback {
             if (!this.isValidTestimonial(testimonial)) {
                 continue;
             }
-            HTML += `<div class="clients-feedback-item" style="width: 10%;">
+            HTML += `<div class="clients-feedback-item" style="width: 580px; height:170px">
                         <div class="cont-left">
                             <img src="${testimonial.img}" alt="An image of a user">
                         </div>
