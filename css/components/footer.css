@@ -42,3 +42,11 @@ i {
     color: white;
     margin-top: 15px;
 }
+
+.fa {
+    padding: 5px 5px;
+}
+
+footer .fa:hover {
+    color: #8490ff;
+}
