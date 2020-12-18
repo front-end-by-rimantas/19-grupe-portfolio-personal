@@ -6,12 +6,16 @@ const socialsData = [
     {   
         icon: 'twitter',
         link: '#'
-    },   {   
+    },  
+    {   
         icon: 'dribbble',
         link: '#'
-    },   {   
+    },   
+    {   
         icon: 'behance',
         link: '#'
     },
 
 ];
+
+export { socialsData }

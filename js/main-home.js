@@ -22,7 +22,7 @@ import { plansData } from './data/plansData.js';
 /* partners */
 /* footer */
 import { renderSocials } from "./socials/renderSocials.js";
-// import { socialsData } from './data/socialsData.js';
+import { socialsData } from './data/socialsData.js';
 
 
 /***************
@@ -49,4 +49,6 @@ renderPlans('#choose-plan', plansData);
 /* posts */
 /* partners */
 /* footer */
-renderSocials();
+renderSocials(socialsData);
+
+ 
