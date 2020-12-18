@@ -16,6 +16,8 @@ $(window).scroll(function() {
 import { clientsFeedbackData } from './data/clientsFeedbackData.js';
 import { renderClientsFeedback } from './components/clientsFeedback/Clients.js';
 /* choose your plan */
+import { renderPlans } from './components/plans/renderPlans.js';
+import { plansData } from './data/plansData.js';
 /* posts */
 /* partners */
 /* footer */
@@ -40,6 +42,7 @@ new renderClientsFeedback({
 });
 
 /* choose your plan */
+renderPlans('#choose-plan', plansData);
 /* posts */
 /* partners */
 /* footer */
