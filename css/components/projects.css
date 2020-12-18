@@ -16,11 +16,30 @@
     padding-left: 40px;
     text-align: center;
 }
-.filters > li {
-    font-size: 14px;
+.filters > a {
+    font-size: 12px;
     display: inline-block;
     padding-left: 40px;
     text-align: center;
+    position: relative;
+}
+.filters > a.filter-a:hover::before {
+    content: '';
+    position: absolute;
+    background-color: black;
+    display: inline-block;
+    height: 2px;
+    top: 18px;
+    animation: hoverLine 0.2s forwards;
+}
+.filters > a.filter-a.filter-before-long::before {
+    width: 19%;
+}
+.filters > a.filter-a.filter-before-short::before {
+    width: 7%;
+}
+.filters > a.filter-a.filter-before::before {
+    width: 25%;
 }
 
 .filters {
@@ -52,9 +71,52 @@
     padding: 150px 141px;
     border: 1px solid transparent;
     border-radius: 10px;
-    transition: display 1s;
 }
 .filters-content:hover > .filters-icon {
     display: inline-block;
-    background-image: linear-gradient(to right, #8490ffda, #62bcfcda);
+    animation: animateGradient 0.2s forwards;
+}
+@keyframes hoverLine {
+    0% {
+        width: 0%;
+    }
+    100% {
+        
+    }
+}
+
+@keyframes animateGradient {
+    0% {
+        background-image: linear-gradient(to right, #8490ff73, #62bcfc73);
+    }
+    10% {
+        background-image: linear-gradient(to right, #8490ff80, #62bcfc80);
+    }
+    20% {
+        background-image: linear-gradient(to right, #8490ff99, #62bcfc99);
+    }
+    30% {
+        background-image: linear-gradient(to right, #8490ffA3, #62bcfcA3);
+    }
+    40% {
+        background-image: linear-gradient(to right, #8490ff99, #62bcfc99);
+    }
+    50% {
+        background-image: linear-gradient(to right, #8490ffA6, #62bcfcA6);
+    }
+    60% {
+        background-image: linear-gradient(to right, #8490ffB3, #62bcfcB3);
+    }
+    70% {
+        background-image: linear-gradient(to right, #8490ffBA, #62bcfcBA);
+    }
+    80% {
+        background-image: linear-gradient(to right, #8490ffBF, #62bcfcBF);
+    }
+    90% {
+        background-image: linear-gradient(to right, #8490ffCC, #62bcfcCC);
+    }
+    100% {
+        background-image: linear-gradient(to right, #8490ffD9, #62bcfcD9);
+    }
 }
