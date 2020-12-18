@@ -1,5 +1,38 @@
-.partners {
-    /* background-color: #8490ff; */
+.partners-block {
+
+}
+
+    .partners-block > view {
+
+    }
+
+        .partners-block > view > .list {
+            
+        }
+
+            .partners-block > .list > .item {
+                
+            }
+
+                .partners-block > .item > .partner {
+                    
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .partners {
     background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
 }
 
@@ -18,4 +51,4 @@
 .partners-block img:hover {
     cursor: pointer;
     filter: drop-shadow(0 0 0px #fff); 
-}
+} */
