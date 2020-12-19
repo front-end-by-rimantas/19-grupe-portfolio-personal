@@ -1,18 +1,7 @@
+import {socialInputValidation } from "./socialInputValidation.js";
 
 function renderSocials (data) {
-// input validation
-    if (Array.isArray(data) === false) {
-    // //jei array uzrasymo tipas nera array, arba kitas galimas uzrasymas su invert(!) >>>  (!Array.isArray(data))
-    console.error('ERROR: social icons geenruoti reikia array tipo duomenu');
-    return false;
-    }
-    if (data.length === 0) {
-    console.error('ERROR: social icons generavimui reikia ne tuscio array')   
-    return false;
-    }
-
-    
-
+socialInputValidation ();
 
 // logic , kintamieji
 const socialsDOM = document.querySelector ('div > .socials-row');
