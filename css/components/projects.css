@@ -16,7 +16,7 @@
     padding-left: 40px;
     text-align: center;
 }
-.filters > li {
+.filters > a {
     font-size: 14px;
     display: inline-block;
     padding-left: 40px;
