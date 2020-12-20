@@ -7,16 +7,16 @@ function renderSocials(selector, data) {
     return false;
     }
 
-// logic 
-const socialsDOM = document.querySelector(selector); //'div > .socials-row'
+    // logic 
+    const socialsDOM = document.querySelector(selector); //'div > .socials-row'
 
-if (!socialsDOM) {
-    console.error('ERROR nerasta turinio generavimo vieta');
+    if (!socialsDOM) {
+    console.error('ERROR: nerasta turinio generavimo vieta');
     return false;
-}
+    }
 
-// ciklas
-let HTML = '';
+    // ciklas
+    let HTML = '';
 
     for (let i=0; i < data.length; i++) {
         const item = data [i];
@@ -26,15 +26,16 @@ let HTML = '';
         HTML += `<a href="${item.link}" target="_blank" class="fa fa-${item.icon}"></a>`;
     }
 
-// post logic validation, tikrinama ar sarasas tinkamas, ar nera tuscias ir pan.
-if (HTML === '') {
-    console.error('ERROR: nepavyko sugeneruoti social ikonu / nuorodu');
+    // post logic validation, tikrinama ar sarasas tinkamas, ar nera tuscias ir pan.
+    if (HTML === '') {
+    console.error('ERROR: nepavyko sugeneruoti soc. ikonu / nuorodu');
     return false;
-} 
+    } 
 
-// return / turinio istatymas 
-socialsDOM.innerHTML += HTML;
-return true;
+    // return / turinio istatymas 
+    socialsDOM.innerHTML += HTML;
+    return true;
+
 }
 
-export { renderSocials };
+export { renderSocials }

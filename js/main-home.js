@@ -49,6 +49,6 @@ renderPlans('#choose-plan', plansData);
 /* posts */
 /* partners */
 /* footer */
-renderSocials('div > .socials-row', socialsData);
+renderSocials('.socials-row', socialsData);
 
  
