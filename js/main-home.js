@@ -12,6 +12,10 @@ $(window).scroll(function() {
 /* services */
 /* projects completed */
 /* projects */
+import { renderFeaturedProjectsNav } from './components/featuredProjects/renderFeaturedProjectsNav.js';
+import { featuredProjectsNavData } from './data/featuredProjectsNavData.js';
+import { renderFeaturedProjects } from './components/featuredProjects/renderFeaturedProjects.js';
+import { featuredProjectsData } from './data/featuredProjectsData.js';
 /* clients feedback about me */
 import { clientsFeedbackData } from './data/clientsFeedbackData.js';
 import { renderClientsFeedback } from './components/clientsFeedback/Clients.js';
@@ -35,6 +39,8 @@ renderHeader('header nav', headerData);
 /* services */
 /* projects completed */
 /* projects */
+renderFeaturedProjectsNav('div div .filters', featuredProjectsNavData);
+renderFeaturedProjects('#featured-projects', featuredProjectsData);
 /* clients feedback about me */
 new renderClientsFeedback({
   selector: '#testimonials_block',
