@@ -9,8 +9,8 @@ function renderFeaturedProjectsNav(selector, data) {
         return false;
     }
     let HTML = '';
-    for (let { link, name } of data) {
-        HTML += `<a href="${link}">${name}</a>`;
+    for (let { link, name, clas } of data) {
+        HTML += `<a href="${link}" class="${clas}">${name}</a>`;
     }
     if (HTML === '') {
         return false;
