@@ -20,6 +20,8 @@ import { renderPlans } from './components/plans/renderPlans.js';
 import { plansData } from './data/plansData.js';
 /* posts */
 /* partners */
+import { Partners } from './components/partners/Partners.js';
+import { partnersData } from './data/partnersData.js';
 /* footer */
 
 /***************
@@ -45,4 +47,13 @@ new renderClientsFeedback({
 renderPlans('#choose-plan', plansData);
 /* posts */
 /* partners */
+
+const partnersLogo = new Partners({
+  selector:'#partners_block',
+  data: partnersData,
+  maxItems:7,
+  cloneCount:2,
+  visibilityStrategy: 'last',
+});
+
 /* footer */
