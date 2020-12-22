@@ -1,18 +1,22 @@
 .container.choose > .plans {
     background-color: #F9F9FF;
     height: 530px;
+   /* width: 1200px; */
     text-align: center;
-    gap: 40px;
-    padding-right: 20px;
-    padding-left: 20px;
+    gap: 20px;
+    /* padding-right: 20px;
+    padding-left: 20px; */
 }
 .pa {
     border-top: 1px solid #eee;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    font-weight: 300;
 }
 .ind {
-    margin: 0 0 40px 0;
+    margin: 0 0 30px 0;
+    font-weight: 300;
 }
 .border {
     background-color: rgba(132, 144, 255, 0.1);
@@ -21,10 +25,14 @@
     height: 140px;
     width: 140px;
     margin-top: 40px;  
-    padding-top: 20px;
-    padding-bottom: 35px;
+    padding-top: 15px;
     font-size: 36px;
     color: black;
+    font-weight: 300;
+}
+.price {
+    padding-top: 0px;
+    margin-top: 10px;
 }
 .align {
     display: inline-block;
@@ -38,7 +46,7 @@
     margin-bottom: 60px;
     text-align: center;
 }
-.price > a {
+.price > .hide-price {
     color: black;
     font-size: 36px;
     font-weight: 600;
@@ -46,8 +54,61 @@
 }
 .plan-name {
 padding-top: 20px;
-padding-bottom: 15px;
+padding-bottom: 10px;
 }
 .paB {
     border-bottom: 1px solid #eee;   
 }
+.show-button {
+    display: none;
+}
+div.plans > div.col-3 {
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 400ms;
+}
+.show-button {
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 43px;
+    margin-top: 22px;
+}
+.show-button > a {
+    display: inline-block;
+    text-transform: uppercase;
+    color:black;
+    padding-top: 12px;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: black;
+}
+div.plans > div.col-3:hover {
+    background-image: linear-gradient(to right, #8490ff, #62bdfc);
+    transform: scale(1.04, 1.04);
+    transition: 400ms;
+}
+.all-plans:hover > .align > .border {
+    color: white;
+    font-size: 36px;
+    border-color: hsla(0, 100%, 100%, .3);
+    transition: 400ms;
+}
+.all-plans:hover > h4 {
+    color: white;
+    font-size: 18px;
+}
+.all-plans:hover > p {
+    color: white;
+    font-size: 14px;
+    transition: 400ms;
+}
+.all-plans:hover > .price > .hide-price {
+    display: none;
+    transition: 400ms;
+}
+.all-plans:hover > .price > .show-button {
+    display: inline-block;
+}
+
+
