@@ -4,9 +4,12 @@ class renderClientsFeedback {
         this.data = params.data || [];
         this.maxItems = params.maxItems || 4;
         this.cloneCount = params.cloneCount || 2;
+        this.isArrowsVisible = params.isArrowsVisible || true;
         this.visibilitystrategy = params.visibilitystrategy || 'random';
 
+        this.testimonialsCount = this.data.length;
         this.DOM = null;
+        this.arrowsDOM = null;
 
         this.init();
     }
@@ -18,6 +21,7 @@ class renderClientsFeedback {
             return;
         }
         this.render();
+        this.addEvents();
     }
 
     isValidSelector() {
@@ -54,6 +58,19 @@ class renderClientsFeedback {
         return HTML;
     }
 
+    generateArrows() {
+        let HTML = '';
+        if(!this.isArrowsVisible) {
+            return HTML;
+        }
+        HTML = `<div class="cont-arrow clients-feedback">
+                    ${this.isArrowsVisible ? '<svg class="lnr lnr-arrow-up"><use xlink:href="#lnr-arrow-up"></use></svg>' : ''}
+                    ${this.isArrowsVisible ? '<svg class="lnr lnr-arrow-down"><use xlink:href="#lnr-arrow-down"></use></svg>' : ''}
+                </div>`;
+
+        return HTML;
+    }
+
     render() {
         // style="width: 500%;"
         const HTML = ` <div class="testimonial">
@@ -61,14 +78,20 @@ class renderClientsFeedback {
             <div class="clients-list">
                 ${this.generateItems()}
             </div>
-        </div>
-        <div class="cont-arrow clients-feedback">
-            <svg class="lnr lnr-arrow-up"><use xlink:href="#lnr-arrow-up"></use></svg> 
-            <svg class="lnr lnr-arrow-down"><use xlink:href="#lnr-arrow-down"></use></svg> 
-        </div>
+            ${this.generateArrows()}
         </div>`;
 
         this.DOM.innerHTML = HTML;
+
+        if(this.isArrowsVisible) {
+            this.arrowsDOM = this.DOM.querySelector('.cont-arrow');
+        }
+
+        console.log(this);
+    }
+
+    addEvents() {
+        
     }
 }
 

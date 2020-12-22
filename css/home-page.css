@@ -69,15 +69,18 @@ p {
 /* clients-feedback */
 .header-clients-feedback > h3 {
     margin-bottom: 10px;
+    font-weight: 600;
 }
 .header-clients-feedback > p {
     margin-bottom: 15px;
+    font-weight: 300;
 }
 .cont-right > h4.cont-right-text {
     margin-bottom: 5px;
 }
 .cont-right > p.cont-right-text {
     margin-bottom: 15px;
+    font-weight: 300;
 }
 /* plan */
 /* posts */

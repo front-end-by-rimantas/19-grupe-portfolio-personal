@@ -47,6 +47,7 @@ new renderClientsFeedback({
   data: clientsFeedbackData,
   maxItems: 4,
   cloneCount: 2,
+  isArrowsVisible: true,
   visibilitystrategy: 'random',
 });
 
