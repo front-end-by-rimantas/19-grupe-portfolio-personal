@@ -74,19 +74,19 @@ div.plans > div.col-3 {
     height: 43px;
     margin-top: 22px;
 }
-.show-button > a {
+.show-button > a.button {
     display: inline-block;
     text-transform: uppercase;
     color:black;
     padding-top: 12px;
     font-weight: 600;
     font-size: 14px;
-    text-decoration: black;
 }
 div.plans > div.col-3:hover {
     background-image: linear-gradient(to right, #8490ff, #62bdfc);
     transform: scale(1.04, 1.04);
     transition: 400ms;
+    cursor: pointer;
 }
 .all-plans:hover > .align > .border {
     color: white;

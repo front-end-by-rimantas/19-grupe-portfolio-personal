@@ -24,7 +24,7 @@ function renderPlans(selector, data) {
             <div class="price">
                 <p class="hide-price">${price}</p>
                 <div class="show-button">
-                    <a href="${link}">${p5}</a>
+                    <a class="button" href="${link}">${p5}</a>
                 </div>
             </div>
         </div>
