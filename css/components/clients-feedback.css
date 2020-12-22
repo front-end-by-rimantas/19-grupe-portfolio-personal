@@ -16,14 +16,18 @@
     text-transform: none;
     line-height: 1.625em;
 }
-.testimonial {
+.testimonials_block {
     position: relative;
 }
-    /* animate testimonials */
     
-    /* .testimonial > .view {
+    .testimonial > .view {
         overflow: hidden;
-    } */
+    }
+
+    .clients-list {
+        background-color: aqua;
+    }
+
     div.clients-feedback-item {
         display: inline-block;
         width: 48%;
@@ -34,7 +38,7 @@
 
     /* sprendimas del nelygio paddingo */
     div.clients-feedback-item:nth-of-type(2n) {
-        margin-left: 4%;
+        margin-left: 3%;
         padding: 25px 30px 12px 30px;
     }
     /* sprendimas del nelygio paddingo */

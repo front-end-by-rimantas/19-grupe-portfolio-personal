@@ -9,7 +9,9 @@ class renderClientsFeedback {
 
         this.testimonialsCount = this.data.length;
         this.DOM = null;
+        this.listDOM = null;
         this.arrowsDOM = null;
+        this.arrowsDOMs = null;
 
         this.init();
     }
@@ -44,7 +46,7 @@ class renderClientsFeedback {
                 continue;
             }
             // style="width: 580px; height:170px">
-            HTML += `<div class="clients-feedback-item">
+            HTML += `<div class="clients-feedback-item" style="width: 23%;">
                             <div class="cont-left">
                                 <img src="${testimonial.img}" alt="An image of a user">
                             </div>
@@ -64,8 +66,8 @@ class renderClientsFeedback {
             return HTML;
         }
         HTML = `<div class="cont-arrow clients-feedback">
-                    ${this.isArrowsVisible ? '<svg class="lnr lnr-arrow-up"><use xlink:href="#lnr-arrow-up"></use></svg>' : ''}
-                    ${this.isArrowsVisible ? '<svg class="lnr lnr-arrow-down"><use xlink:href="#lnr-arrow-down"></use></svg>' : ''}
+                    ${this.isArrowsVisible ? '<svg class="clients-arrow lnr lnr-arrow-up"><use xlink:href="#lnr-arrow-up"></use></svg>' : ''}
+                    ${this.isArrowsVisible ? '<svg class="clients-arrow lnr lnr-arrow-down"><use xlink:href="#lnr-arrow-down"></use></svg>' : ''}
                 </div>`;
 
         return HTML;
@@ -75,7 +77,7 @@ class renderClientsFeedback {
         // style="width: 500%;"
         const HTML = ` <div class="testimonial">
         <div class="view">
-            <div class="clients-list">
+            <div class="clients-list" style="width: 200%;">
                 ${this.generateItems()}
             </div>
             ${this.generateArrows()}
@@ -83,15 +85,26 @@ class renderClientsFeedback {
 
         this.DOM.innerHTML = HTML;
 
+        this.listDOM = this.DOM.querySelector('.clients-list');
+
         if(this.isArrowsVisible) {
             this.arrowsDOM = this.DOM.querySelector('.cont-arrow');
-        }
 
-        console.log(this);
+            if(this.isArrowsVisible) {
+                this.arrowsDOMs = this.arrowsDOM.querySelectorAll('.clients-arrow');
+            }
+        }
     }
 
     addEvents() {
-        
+        for(let i = 0; i < this.arrowsDOMs.length; i++) {
+            const arrow = this.arrowsDOMs[i];
+            console.log(arrow);
+
+            arrow.addEventListener('click', () => {
+                this.listDOM.style.marginLeft = -96.01 * i + '%';
+            })
+        }
     }
 }
 
