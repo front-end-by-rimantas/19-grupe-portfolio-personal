@@ -31,8 +31,8 @@ div.align > .border {
     font-weight: 300;
 }
 div.all-plans > .price {
-    padding-top: 0px;
-    margin-top: 10px;
+    /* padding-top: 0px; */
+    padding-top: 10px;
 }
 div.all-plans > .align {
     display: inline-block;
@@ -47,6 +47,8 @@ div.col-12 > .when {
     text-align: center;
 }
 .price > .hide-price {
+    display: inline-block;
+    width: 100%;
     color: black;
     font-size: 36px;
     font-weight: 600;
@@ -80,6 +82,10 @@ div.plans > div.col-3 {
     font-weight: 600;
     font-size: 14px;
 }
+div.price {
+    display: inline-block;
+    width: 100%;
+}
 div.plans > div.col-3:hover {
     background-image: linear-gradient(to right, #8490ff, #62bdfc);
     transform: scale(1.04, 1.04);
@@ -106,7 +112,9 @@ div.plans > div.col-3:hover {
     transition: 300ms;
 }
 .all-plans:hover > .price > .show-button {
-    display: inline-block;
+    display: block;
+    width: 100%;
+    
 }
 
 
