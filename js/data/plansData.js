@@ -7,6 +7,7 @@ const plansData = [
         p3: 'Unlimited Styles for interface',
         p4: 'Reliable Customer Services',
         price: '£199.00',
+        p5: 'BUY NOW',
         link: '#',
     },
     {
@@ -17,6 +18,7 @@ const plansData = [
         p3: 'Unlimited Styles for interface',
         p4: 'Reliable Customer Services',
         price: '£299.00',
+        p5: 'BUY NOW',
         link: '#',
     },
     {
@@ -27,6 +29,7 @@ const plansData = [
         p3: 'Unlimited Styles for interface',
         p4: 'Reliable Customer Services',
         price: '£399.00',
+        p5: 'BUY NOW',
         link: '#',
     },
     {
@@ -37,6 +40,7 @@ const plansData = [
         p3: 'Unlimited Styles for interface',
         p4: 'Reliable Customer Services',
         price: '£499.00',
+        p5: 'BUY NOW',
         link: '#',
     },
 ];
