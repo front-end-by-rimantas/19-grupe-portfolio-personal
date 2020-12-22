@@ -118,3 +118,10 @@
         background-image: linear-gradient(to right, #8490ffD9, #62bcfcD9);
     }
 }
+
+@media(max-width: 680px) {
+    .filters-content {
+        width: 50%;
+        margin-left: 25%;
+    }
+}
