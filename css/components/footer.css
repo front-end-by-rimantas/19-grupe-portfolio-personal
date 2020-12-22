@@ -2,14 +2,11 @@ footer {
     background-color:#04091e;
 }
 
-.footer-block > h4 {
+footer .footer-block > h4 {
     color: white;
 }
-/* .footer-block {
-    background-color: rgb(124, 90, 90);
-} */
 
-.footer-block > p {
+footer .footer-block > p {
     text-align: left;
     line-height: 30px;
 }
@@ -17,7 +14,7 @@ i {
     padding: 8px 8px 8px 8px;
 }
 
-.input {
+footer .input {
     display: inline-block;
     width: calc(100% - 50px);
     height: 50px;
@@ -25,10 +22,10 @@ i {
     padding-left: 20px;
     
 }
-.input-form-row {
+footer .input-form-row {
     padding-top: 10px;
 }
-.mygtukas {
+footer .mygtukas {
     display: inline-block;
     background-color: #8490ff;
     fill: white;
@@ -38,7 +35,7 @@ i {
 
 }
 
-.footer-block > .fa {
+footer .footer-block > .fa {
     color: white;
     margin-top: 15px;
  
@@ -53,10 +50,19 @@ footer .socials-row:hover {
  
 }
 
-a:-webkit-any-link {
+.socials-row > a {
     color: #fff;
 }
 
-.lnr-arrow-right {
+.footer-block > p > a {
+    color: #8490ff;
+}
+
+/* a:-webkit-any-link {
+    color: #fff;
+} */
+
+footer .lnr-arrow-right {
     padding: 15px 15px;
 }
+
