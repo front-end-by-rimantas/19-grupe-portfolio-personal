@@ -39,24 +39,26 @@ class renderClientsFeedback {
             if (!this.isValidTestimonial(testimonial)) {
                 continue;
             }
-            HTML += `<div class="clients-feedback-item" style="width: 580px; height:170px">
-                        <div class="cont-left">
-                            <img src="${testimonial.img}" alt="An image of a user">
-                        </div>
-                        <div class="cont-right">
-                            <p class="cont-right-text">${testimonial.comment}</p>
-                            <h4 class="cont-right-text">${testimonial.name}</h4>
-                            <p class="cont-right-text">${testimonial.position}</p>
-                        </div>
+            // style="width: 580px; height:170px">
+            HTML += `<div class="clients-feedback-item">
+                            <div class="cont-left">
+                                <img src="${testimonial.img}" alt="An image of a user">
+                            </div>
+                            <div class="cont-right">
+                                <p class="cont-right-text">${testimonial.comment}</p>
+                                <h4 class="cont-right-text">${testimonial.name}</h4>
+                                <p class="cont-right-text">${testimonial.position}</p>
+                            </div>
                     </div>`;
         }
         return HTML;
     }
 
     render() {
+        // style="width: 500%;"
         const HTML = ` <div class="testimonial">
         <div class="view">
-            <div class="clients-list" style="width: 500%;">
+            <div class="clients-list">
                 ${this.generateItems()}
             </div>
         </div>
