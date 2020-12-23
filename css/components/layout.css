@@ -86,15 +86,18 @@ body {
     /* clients feedback about me */
 
     /* choose your plan */
-    
+    section.choose > div.row.plans {
+        background-color: white;
+    }
+    div.all-plans  {
+        background-color: #F9F9FF;
+    }
     /* posts */
 
     /* partners */
 
     /* footer */
 }
-
-
 @media (max-width: 1080px) {
     .container {
         grid-template-columns: 1fr 780px 1fr;
@@ -116,7 +119,7 @@ body {
         .container > .row > .col-md-11 { grid-column: auto / span 11; }
         .container > .row > .col-md-12 { grid-column: auto / span 12; }
 
-        /* header */
+/* header */
 
 /* this is me */
 
@@ -174,7 +177,9 @@ body {
 /* clients feedback about me */
 
 /* choose your plan */
-
+div.row.plans {
+    gap: 30px 0px;
+}
 /* posts */
 
 /* partners */

@@ -1,11 +1,6 @@
 .container.choose > .plans {
     background-color: #F9F9FF;
-    height: 530px;
-   /* width: 1200px; */
     text-align: center;
-    gap: 20px;
-    /* padding-right: 20px;
-    padding-left: 20px; */
 }
 div.all-plans > .pa {
     border-top: 1px solid #eee;
@@ -30,9 +25,8 @@ div.align > .border {
     color: black;
     font-weight: 300;
 }
-div.all-plans > .price {
-    /* padding-top: 0px; */
-    padding-top: 10px;
+div.all-plans  {
+   padding-bottom: 30px;
 }
 div.all-plans > .align {
     display: inline-block;
@@ -52,7 +46,7 @@ div.col-12 > .when {
     color: black;
     font-size: 36px;
     font-weight: 600;
-    padding-top: 20px;
+    padding-top: 25px;
 }
 .plan-name {
 padding-top: 20px;
@@ -67,7 +61,7 @@ div.price > .show-button {
     color: black;
     width: 100%;
     height: 43px;
-    margin-top: 22px;
+    margin-top: 30px;
 }
 div.plans > div.col-3 {
     padding-left: 20px;
@@ -113,8 +107,6 @@ div.plans > div.col-3:hover {
 }
 .all-plans:hover > .price > .show-button {
     display: block;
-    width: 100%;
-    
 }
 
 
