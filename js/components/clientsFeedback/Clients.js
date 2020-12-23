@@ -41,12 +41,16 @@ class renderClientsFeedback {
 
     generateItems() {
         let HTML = '';
-        for(let testimonial of this.data) {
+        const itemWidth = 100 / (this.data.length + 2 * this.cloneCount);
+
+        const dataCopy = [this.data[1], this.data[0], ...this.data, this.data[0], this.data[1]];
+
+        for(let testimonial of dataCopy) {
             if (!this.isValidTestimonial(testimonial)) {
                 continue;
             }
             // style="width: 580px; height:170px">
-            HTML += `<div class="clients-feedback-item" style="width: 23%;">
+            HTML += `<div class="clients-feedback-item" style="width: ${itemWidth}%;">
                             <div class="cont-left">
                                 <img src="${testimonial.img}" alt="An image of a user">
                             </div>
@@ -74,10 +78,12 @@ class renderClientsFeedback {
     }
 
     render() {
+        const listWidth = (this.data.length + 2 * this.cloneCount) * 50;
+
         // style="width: 500%;"
         const HTML = ` <div class="testimonial">
         <div class="view">
-            <div class="clients-list" style="width: 200%;">
+            <div class="clients-list" style="width: ${listWidth}%;">
                 ${this.generateItems()}
             </div>
             ${this.generateArrows()}
@@ -102,7 +108,7 @@ class renderClientsFeedback {
             console.log(arrow);
 
             arrow.addEventListener('click', () => {
-                this.listDOM.style.marginLeft = -96.01 * i + '%';
+                this.listDOM.style.marginLeft = -100 * i + '%';
             })
         }
     }

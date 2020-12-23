@@ -37,10 +37,10 @@
     }
 
     /* sprendimas del nelygio paddingo */
-    div.clients-feedback-item:nth-of-type(2n) {
-        margin-left: 3%;
+    /* div.clients-feedback-item:nth-of-type(2n) {
+        margin-left: 20px;
         padding: 25px 30px 12px 30px;
-    }
+    } */
     /* sprendimas del nelygio paddingo */
 
     div.clients-feedback-item > div.cont-left {

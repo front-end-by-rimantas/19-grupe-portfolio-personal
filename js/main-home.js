@@ -46,7 +46,7 @@ new renderClientsFeedback({
   selector: '#testimonials_block',
   data: clientsFeedbackData,
   maxItems: 4,
-  cloneCount: 2,
+  cloneCount: 4,
   isArrowsVisible: true,
   visibilitystrategy: 'random',
 });
