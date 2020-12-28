@@ -1,7 +1,7 @@
 class Partners {
     constructor(params) {
-        this.selector = params.selector;
-        this.data = params.data;
+        this.selector = params.selector || 'body';
+        this.data = params.data || [];
         this.maxItems = params.maxItems || 5;
         this.cloneCount = params.cloneCount || 2;
         this.visibilityStrategy = params.visibilityStrategy || 'random';
@@ -10,6 +10,7 @@ class Partners {
     }
     
     init() {
+        // input (params) validation
         this.render();
     }
 
