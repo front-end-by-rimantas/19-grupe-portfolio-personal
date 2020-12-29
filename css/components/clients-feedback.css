@@ -30,7 +30,8 @@
 
     div.clients-feedback-item {
         display: inline-block;
-        width: 48%;
+        width: 50%;
+        float: left;
         height: 100%;
         background: #fff;
         padding: 25px 30px 12px 30px;

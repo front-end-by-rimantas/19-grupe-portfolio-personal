@@ -3,7 +3,7 @@ class renderClientsFeedback {
         this.selector = params.selector || 'body';
         this.data = params.data || [];
         this.maxItems = params.maxItems || 4;
-        this.cloneCount = params.cloneCount || 2;
+        this.cloneCount = params.cloneCount || 4;
         this.isArrowsVisible = params.isArrowsVisible || true;
         this.visibilitystrategy = params.visibilitystrategy || 'random';
 
