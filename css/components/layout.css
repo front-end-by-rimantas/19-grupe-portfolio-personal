@@ -134,6 +134,9 @@ body {
 /* clients feedback about me */
 
 /* choose your plan */
+div.row.plans {
+    gap: 30px 0px;
+}
 
 /* posts */
 
