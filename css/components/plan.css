@@ -108,5 +108,8 @@ div.plans > div.col-3:hover {
 .all-plans:hover > .price > .show-button {
     display: block;
 }
+.all-plans:hover {
+   z-index: 1;
+}
 
 
