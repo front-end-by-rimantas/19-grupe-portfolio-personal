@@ -92,6 +92,9 @@ body {
     div.all-plans  {
         background-color: #F9F9FF;
     }
+    div.row.plans {
+        gap: 30px 0px;
+    }
     /* posts */
 
     /* partners */
