@@ -1,80 +1,80 @@
-.label > h3 {
+.projects >.label > h3 {
     text-align: center; 
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-family: sans-serif;
-    font-weight: 300;
-    line-height: 1.625em;
+    font-weight: 600;
+    line-height: 1.2em;
      
-}.ali > p {
+}
+.projects > .row > .ali > p {
     text-align: center;
+    padding-bottom: 50px;
 }
-
-.all {
-    color: #8490ff;
-    font-size: 14px;
-    display: inline-block;
-    padding-left: 40px;
-    text-align: center;
-}
-.filters > a {
-    font-size: 12px;
-    display: inline-block;
-    padding-left: 40px;
-    text-align: center;
-    position: relative;
-}
-.filters > a.filter-a:hover::before {
-    content: '';
-    position: absolute;
-    background-color: black;
-    display: inline-block;
-    height: 2px;
-    top: 18px;
-    animation: hoverLine 0.2s forwards;
-}
-.filters > a.filter-a.filter-before-long::before {
-    width: 19%;
-}
-.filters > a.filter-a.filter-before-short::before {
-    width: 7%;
-}
-.filters > a.filter-a.filter-before::before {
-    width: 25%;
-}
-
 .filters {
     text-align: center;
-    padding-top: 60px;
-    display: inline-block;
-    padding-bottom: 60px;
-    padding-left: 368px;
-    padding-right: 368px;
-    
-}
-.filters-content {
-    text-align: center;
-    display: inline-block;
-    position: relative;
 }
 
+    .filters > a.filter-a.active {
+        color: #8490ff;
+    }
 
-.filters-content > h4 {
-    padding-top: 20px;
-}
+    .filters > a.filter-a {
+        display: inline-block;
+        font-weight: 500;
+        color: #222;
+        font-size: 12px;
+        text-align: center;
+        padding: 15px 18px;
+        position: relative;
+    }
+    .filters > a.filter-a:hover::before {
+        content: '';
+        position: absolute;
+        background-color: black;
+        display: inline-block;
+        height: 2px;
+        bottom: 12px;
+        animation: hoverLine 0.2s forwards;
+    }
+    .filters > a.filter-a.filter-before-long::before {
+        width: 19%;
+    }
+    .filters > a.filter-a.filter-before-short::before {
+        width: 7%;
+    }
+    .filters > a.filter-a.filter-before::before {
+        width: 25%;
+    }
 
-.filters-content > .filters-icon {
-    position: absolute;
-    display: none;
-    top: 0;
-    left: 0;
-    padding: 150px 141px;
-    border: 1px solid transparent;
-    border-radius: 10px;
-}
-.filters-content:hover > .filters-icon {
-    display: inline-block;
-    animation: animateGradient 0.2s forwards;
-}
+    .filters-content {
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+        position: relative;
+    }
+    .filters-content > img {
+        width: 100%;
+    }
+
+
+        .filters-content > h4 {
+            padding-top: 20px;
+        }
+
+        .filters-content > img.filters-icon {
+            width: 100%;
+            position: absolute;
+            display: none;
+            top: 0;
+            left: 0;
+            padding: 43% 40%;
+            border: 1px solid transparent;
+            border-radius: 10px;
+        }
+        .filters-content:hover > .filters-icon {
+            display: inline-block;
+            animation: animateGradient 0.2s forwards;
+        }
 @keyframes hoverLine {
     0% {
         width: 0%;
@@ -117,5 +117,12 @@
     }
     100% {
         background-image: linear-gradient(to right, #8490ffD9, #62bcfcD9);
+    }
+}
+
+@media(max-width: 680px) {
+    .filters-content {
+        width: 50%;
+        margin-left: 25%;
     }
 }

@@ -70,8 +70,37 @@ body {
         .container > .row > .col-lg-10 { grid-column: auto / span 10; }
         .container > .row > .col-lg-11 { grid-column: auto / span 11; }
         .container > .row > .col-lg-12 { grid-column: auto / span 12; }
-}
 
+    /* header */
+
+    /* this is me */
+
+    /* about me */
+
+    /* services */
+
+    /* projects completed */
+
+    /* projects */
+
+    /* clients feedback about me */
+
+    /* choose your plan */
+    section.choose > div.row.plans {
+        background-color: white;
+    }
+    div.all-plans  {
+        background-color: #F9F9FF;
+    }
+    div.row.plans {
+        gap: 30px 0px;
+    }
+    /* posts */
+
+    /* partners */
+
+    /* footer */
+}
 @media (max-width: 1080px) {
     .container {
         grid-template-columns: 1fr 780px 1fr;
@@ -92,6 +121,31 @@ body {
         .container > .row > .col-md-10 { grid-column: auto / span 10; }
         .container > .row > .col-md-11 { grid-column: auto / span 11; }
         .container > .row > .col-md-12 { grid-column: auto / span 12; }
+
+/* header */
+
+/* this is me */
+
+/* about me */
+
+/* services */
+
+/* projects completed */
+
+/* projects */
+
+/* clients feedback about me */
+
+/* choose your plan */
+div.row.plans {
+    gap: 30px 0px;
+}
+
+/* posts */
+
+/* partners */
+
+/* footer */
 }
 
 @media (max-width: 860px) {
@@ -113,6 +167,30 @@ body {
         .container > .row > .col-sm-10 { grid-column: auto / span 10; }
         .container > .row > .col-sm-11 { grid-column: auto / span 11; }
         .container > .row > .col-sm-12 { grid-column: auto / span 12; }
+
+        /* header */
+
+/* this is me */
+
+/* about me */
+
+/* services */
+
+/* projects completed */
+
+/* projects */
+
+/* clients feedback about me */
+
+/* choose your plan */
+div.row.plans {
+    gap: 30px 0px;
+}
+/* posts */
+
+/* partners */
+
+/* footer */
 }
 
 @media (max-width: 680px) {
@@ -134,4 +212,26 @@ body {
         .container > .row > .col-xs-10 { grid-column: auto / span 10; }
         .container > .row > .col-xs-11 { grid-column: auto / span 11; }
         .container > .row > .col-xs-12 { grid-column: auto / span 12; }
+
+        /* header */
+
+/* this is me */
+
+/* about me */
+
+/* services */
+
+/* projects completed */
+
+/* projects */
+
+/* clients feedback about me */
+
+/* choose your plan */
+
+/* posts */
+
+/* partners */
+
+/* footer */
 }
