@@ -12,7 +12,7 @@ function renderPlans(selector, data) {
     let HTML = '';
     for (let { number, name, p1, p2, p3, p4, price, link, p5 } of data) {
         HTML += `
-        <div class="col-3 all-plans">
+        <div class="col-3 col-md-6 col-sm-6 col-xs-12 all-plans">
             <div class="align">
                 <p class="border">${number}</p>
             </div>
