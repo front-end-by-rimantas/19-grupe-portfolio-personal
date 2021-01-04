@@ -1,6 +1,6 @@
 const featuredProjectsNavData = [
     {
-        clas: 'all',
+        clas: 'filter-a active',
         link: '#',
         name: 'All',
     },
