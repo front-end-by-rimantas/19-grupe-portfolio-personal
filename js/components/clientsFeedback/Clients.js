@@ -15,11 +15,11 @@ class renderClientsFeedback {
 
         this.init();
     }
-    
+
     init() {
         // input validation 
         // for false info - generate valid default data
-        if(!this.isValidSelector()) {
+        if (!this.isValidSelector()) {
             return;
         }
         this.render();
@@ -28,7 +28,7 @@ class renderClientsFeedback {
 
     isValidSelector() {
         let DOM = document.querySelector(this.selector);
-        if(!DOM) {
+        if (!DOM) {
             return false;
         }
         this.DOM = DOM;
@@ -45,7 +45,7 @@ class renderClientsFeedback {
 
         const dataCopy = [this.data[1], this.data[0], ...this.data, this.data[0], this.data[1]];
 
-        for(let testimonial of dataCopy) {
+        for (let testimonial of dataCopy) {
             if (!this.isValidTestimonial(testimonial)) {
                 continue;
             }
@@ -66,7 +66,7 @@ class renderClientsFeedback {
 
     generateArrows() {
         let HTML = '';
-        if(!this.isArrowsVisible) {
+        if (!this.isArrowsVisible) {
             return HTML;
         }
         HTML = `<div class="cont-arrow clients-feedback">
@@ -93,17 +93,17 @@ class renderClientsFeedback {
 
         this.listDOM = this.DOM.querySelector('.clients-list');
 
-        if(this.isArrowsVisible) {
+        if (this.isArrowsVisible) {
             this.arrowsDOM = this.DOM.querySelector('.cont-arrow');
 
-            if(this.isArrowsVisible) {
+            if (this.isArrowsVisible) {
                 this.arrowsDOMs = this.arrowsDOM.querySelectorAll('.clients-arrow');
             }
         }
     }
 
     addEvents() {
-        for(let i = 0; i < this.arrowsDOMs.length; i++) {
+        for (let i = 0; i < this.arrowsDOMs.length; i++) {
             const arrow = this.arrowsDOMs[i];
             console.log(arrow);
 
